@@ -42,3 +42,16 @@
 - we need to make pages that can work without css
 - # css isn't broken when things don't act like you expect them to
 - It usually means we simply need to try a different approach, because it has a very good reason for doing what it does(at least most of the time)
+
+# 0008.css-is-all-about-relationships
+
+- every component is connected and have effect in view
+- The relationships between:
+  - an element and the view port
+  - an element and its parent
+  - Sibling elements
+- We need to take into consideration its relationship
+  - Maybe its parent is defining a width instead?
+    - If the parent has a width and we declare a width to the child, it might overflow out the side, or it might be a percentage of the parents's width
+  - these relationships are controlled by a given elements formatting context
+- css is all about relationship between elements we cannot think a component as isolated
