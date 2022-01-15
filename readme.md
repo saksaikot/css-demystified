@@ -145,3 +145,8 @@
 
 - here with border box the 100% width will be including padding and border, so there will be no overflow unless there is any word that is with long character
 - with border-box if there is no margin then the element will not overflow
+
+## 0014. fixing-a-layout
+
+- when we use main content with a side bar, and we give 70% to main and 30% to side bar, with added padding the whole body can overflow
+- we can solve this problem by adding `box-sizing:border-box`
