@@ -1,4 +1,6 @@
-# 0005. css-anatomy-terminology
+# 02.Understanding CSS
+
+## 0005. css-anatomy-terminology
 
 - an example
   ```css
@@ -13,7 +15,7 @@
 - the line property and value is called `declaration`
 - the whole example is called rule
 
-# 0006. why-is-css-so-weird-an-introduction
+## 0006. why-is-css-so-weird-an-introduction
 
 - css is not broken
 - css works the way it suppose to work
@@ -23,7 +25,7 @@
   - css is there just to suggest how the content should visible
   - the default behavior is not to loose any content, thats why we see overflow content
 
-# 0007. why-is-css-so-weird-a-follow-up
+## 0007. why-is-css-so-weird-a-follow-up
 
 - website and web apps needs to device agnostic, means needs to work regardless of any device
 - in early period of css there was pixel perfect design
@@ -40,10 +42,10 @@
 - css is written for a world where the creator doesn't have all the information
 - we need to describe the intent of the outcome
 - we need to make pages that can work without css
-- # css isn't broken when things don't act like you expect them to
+- ### css isn't broken when things don't act like you expect them to
 - It usually means we simply need to try a different approach, because it has a very good reason for doing what it does(at least most of the time)
 
-# 0008.css-is-all-about-relationships
+## 0008.css-is-all-about-relationships
 
 - every component is connected and have effect in view
 - The relationships between:
@@ -55,3 +57,13 @@
     - If the parent has a width and we declare a width to the child, it might overflow out the side, or it might be a percentage of the parents's width
   - these relationships are controlled by a given elements formatting context
 - css is all about relationship between elements we cannot think a component as isolated
+
+# 03.Overlooked Fundamental 1- The box model
+
+## 0009. introduction-to-the-overlooked-fundamentals
+
+- css has global scope
+- if components need to isolated then it is not reusable in the sense of css
+- css has relationship with html, we can change style just adding class to html
+- global scope of css is not a bug its feature so that we can reuse code
+- we need to stop worried about global scope, if we understand it we can use it as our advancement
