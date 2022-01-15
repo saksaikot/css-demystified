@@ -150,3 +150,77 @@
 
 - when we use main content with a side bar, and we give 70% to main and 30% to side bar, with added padding the whole body can overflow
 - we can solve this problem by adding `box-sizing:border-box`
+
+## 0016.Inheritance
+
+- not everything is inherited, but there is a general rule of thumb
+- Anything related to typography is inherited
+
+  ```txt
+    font-size
+    font-family
+    text-decoration
+    color
+
+  ```
+
+- using this inheritance feature we set the common style for html, so that all child have same property
+
+  ```css
+  html {
+    font-family: "really-nice-font";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  ```
+
+- nothing related to layout is inherited
+
+  ```txt
+    margin
+    padding
+    height
+    width
+    position
+
+  ```
+
+- The following do not inherit things like you’d expect them to
+
+  -
+
+  ```html
+  <button>
+  <input>
+  <optgroup>
+  <select>
+  <textarea>
+
+
+  ```
+
+- We can make them inherit those properties if we'd like
+
+  ```css
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+  }
+  ```
+
+- Use this to your advantage(depending on the design of course)
+
+  ```css
+  a {
+    color: inherit;
+  }
+  h2,
+  h3,
+  h4 {
+    font-weight: inherit;
+  }
+  ```
