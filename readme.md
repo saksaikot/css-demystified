@@ -67,3 +67,64 @@
 - css has relationship with html, we can change style just adding class to html
 - global scope of css is not a bug its feature so that we can reuse code
 - we need to stop worried about global scope, if we understand it we can use it as our advancement
+
+## 0010. the-box-model-and-box-sizing
+
+- an example
+
+  ```css
+  .element {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #820b35;
+    margin: 20px;
+  }
+  ```
+
+  - here the actual width is (20+5+20)\*2+200=290px
+  - because the width is for content, so padding order and margin is adding up
+
+- to solve this problem we can use `box-sizing:border-box`
+  ```css
+  .element {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #820b35;
+    margin: 20px;
+  }
+  ```
+  - using this code the width will be content+padding+border, it will not include margin
+  - ### with border-box, margin is not included, because the margin is between two element, if two element has 10px margin than there will be 10px gap not 10+10 = 20 px
+- so we can use this css rule to be safe in our design
+
+  ```css
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  ```
+
+  - ### margin can impact another element is a big deal.
+  - Intrinsic and extrinsic sizing (learn more in "bonus materials" section)
+
+## 0011. what-happens-when-we-don't-set-a-width
+
+- when we don't set a width to block element then the element take whole width of view or the container, even after adding padding and border it does not overflow but take space from the content
+- this is without `box-sizing:border-box`
+
+## 0012. what-happens-when-we-set-a-width
+
+- ```css
+  .content {
+    border: 50px solid red;
+    padding: 50px;
+    margin-top: 10em;
+    background: white;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  }
+  ```
+
+- without width default is `width:auto`
+- when width is set to `100%` then the content width will be 100% of parent element, that case whole element will be more then 100% so that element will overflow
