@@ -128,3 +128,20 @@
 
 - without width default is `width:auto`
 - when width is set to `100%` then the content width will be 100% of parent element, that case whole element will be more then 100% so that element will overflow
+
+## 0013. adding-box-sizing
+
+```css
+ .content {
+   box-sizing:border-box;
+   width:100%
+   border: 50px solid red;
+   padding: 50px;
+   margin-top: 10em;
+   background: white;
+   box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+ }
+```
+
+- here with border box the 100% width will be including padding and border, so there will be no overflow unless there is any word that is with long character
+- with border-box if there is no margin then the element will not overflow
