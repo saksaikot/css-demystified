@@ -313,3 +313,8 @@
   - 5. Author ( css in the page ) declaration
   - 6. User declaration
   - 7. User agent ( browser default) declaration
+
+## 0026.Closing thoughts on importance
+
+- there are few situation where we should use !important, like media query so that we can disable animation for small device
+- in general we should avoid !important when it is not a specific case
