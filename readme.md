@@ -335,3 +335,18 @@
 - example of how specificity make issue and how flat css solve the problem
 
 - https://codepen.io/tkhuong/pen/jOMZwgp
+
+## 0029.Calculating specificity
+
+- https://specificity.keegan.st/ to calculate css specificity
+- specificity calculation rules:
+  - A. IDs `#container #main #sidebar`
+  - B. Classes `navbar .logo`, attributes `[type="text"]` and pseudo-classes `:visited :hover :active`
+  - C. Elements `div` and pseudo-elements `::before ::after ::first-line`
+  - `#container #main` will calculate 2A,
+  - `navbar::before` will calculate 1B+1C
+  - A>B>C, so 1A will win with 10B+10C
+- ### Special Rules
+  - When calculating CSS specificity values, ignore the universal (_) selector.`_ { color: black; }`
+  - Only the selector inside the :not() pseudo-class (negation pseudo-class) is counted. The :not() pseudo-class itself does not get counted.`:not(#some-id) { color: purple; } ` Specificity 1A
+  - In case of a tie, the selector that’s farthest down the stylesheet wins.
