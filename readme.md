@@ -329,3 +329,9 @@
 - so there will be only `order of importance`
 - but as teacher suggested that it is like keeping the learning wheel on as in learning riding cycle.
 - if we learn correct then we can use this specificity in our advantages
+
+## 0028.Fixing specificity issues
+
+- example of how specificity make issue and how flat css solve the problem
+
+- https://codepen.io/tkhuong/pen/jOMZwgp
