@@ -290,3 +290,7 @@
 
 - so end of the day the user in control of how page should look
 - never set font-size to html, then it can override user declaration
+
+## 0024.Origin and font size implications
+
+- just an example showing the bad effect setting font-size in html
