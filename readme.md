@@ -294,3 +294,22 @@
 ## 0024.Origin and font size implications
 
 - just an example showing the bad effect setting font-size in html
+
+## 0025.When animations and transitions get involved
+
+- as css specification
+  - 1. Transitions
+  - 2. user declarations with !important
+  - 3. Author declaration with !important
+  - 4. Animation
+  - 5. Author ( css in the page ) declaration
+  - 6. User declaration
+  - 7. User agent ( browser default) declaration
+- in reality (chrome and later firefox)
+  - 1. user declarations with !important
+  - 2. Author declaration with !important
+  - 3. Animation
+  - 4. Transitions
+  - 5. Author ( css in the page ) declaration
+  - 6. User declaration
+  - 7. User agent ( browser default) declaration
