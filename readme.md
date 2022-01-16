@@ -245,3 +245,10 @@
 - 1 rem is 1 \* font-size of html root element or html tag,
 - so if we set the font-size in html then all the rem value will increase
 - ### so keep mind html font-size is important for rem unit
+
+# 05.Overlooked Fundamentals 3. The Cascade
+
+## 0021.Introduction to the cascade
+
+- focus on cascade, how we should use it
+- we should not separate or isolate of element style rather we should use the cascading feature in our advantage
