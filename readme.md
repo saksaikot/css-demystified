@@ -233,3 +233,9 @@
 ## 0018.A little project
 
 - finished the project in 0018.A little project>01.1 answer
+- there is also style guide which i did not follow
+
+## 0019.A little project my solution
+
+- line-height is unit less and related to font-size, so `line-height:1` is 1 em which is `1* font-size`
+- for smaller font size line-height is bigger, and when the font-size bigger line-height is smaller
