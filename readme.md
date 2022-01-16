@@ -318,3 +318,14 @@
 
 - there are few situation where we should use !important, like media query so that we can disable animation for small device
 - in general we should avoid !important when it is not a specific case
+
+## 0027.Specificity
+
+- the rule is more specific ( h2 vs div.h2) wins
+- in early learning steps, there is a suggestion that we should avoid specificity, which is called flat specificity
+- to do that we use certain css naming convention
+- so we don't need to think about specificity
+- if no specificity issue then we can ignore Origin and Importance
+- so there will be only `order of importance`
+- but as teacher suggested that it is like keeping the learning wheel on as in learning riding cycle.
+- if we learn correct then we can use this specificity in our advantages
