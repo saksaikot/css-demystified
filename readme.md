@@ -273,7 +273,20 @@
   ```
 
 - it will be blue
-- ## how it calculate which rule should be apply
+- ### how it calculate which rule should be apply
   - 1. Origin and Importance
   - 2. Specificity
   - 3. Order of Appearance
+
+## 0023.Importance and origin
+
+- Origin and importance order
+
+  - 1.user declarations with !important
+  - 2. Author declaration with !important
+  - 3. Author ( css in the page ) declaration
+  - 4. User declaration
+  - 5. User agent ( browser default) declaration
+
+- so end of the day the user in control of how page should look
+- never set font-size to html, then it can override user declaration
