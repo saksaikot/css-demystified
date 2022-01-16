@@ -229,3 +229,7 @@
 
 - we should take advantage of inheritance, all typographical property which is related to font will inherit from parent, unless there is a browser default, for this a tag color is blue by browser thats why we need to explicitly write the color for a tag.
 - if we put center on a tag it does nothing since it is a inline element and it takes the space of content
+
+## 0018.A little project
+
+- finished the project in 0018.A little project>01.1 answer
