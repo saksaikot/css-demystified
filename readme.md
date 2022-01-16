@@ -239,3 +239,9 @@
 
 - line-height is unit less and related to font-size, so `line-height:1` is 1 em which is `1* font-size`
 - for smaller font size line-height is bigger, and when the font-size bigger line-height is smaller
+
+## 0020.A little project follow up
+
+- 1 rem is 1 \* font-size of html root element or html tag,
+- so if we set the font-size in html then all the rem value will increase
+- ### so keep mind html font-size is important for rem unit
