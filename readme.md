@@ -224,3 +224,8 @@
     font-weight: inherit;
   }
   ```
+
+## 0017.A quick look at inheritance in action
+
+- we should take advantage of inheritance, all typographical property which is related to font will inherit from parent, unless there is a browser default, for this a tag color is blue by browser thats why we need to explicitly write the color for a tag.
+- if we put center on a tag it does nothing since it is a inline element and it takes the space of content
