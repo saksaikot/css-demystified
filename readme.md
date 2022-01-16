@@ -252,3 +252,28 @@
 
 - focus on cascade, how we should use it
 - we should not separate or isolate of element style rather we should use the cascading feature in our advantage
+
+## 0022.How well do you really know it
+
+- example, what color will have in these 2 div
+
+  ```css
+  .red {
+    background: red;
+  }
+  .blue {
+    background: blue;
+  }
+  ```
+
+  ```html
+  <div class="red blue">
+    <div class="blue red"></div>
+  </div>
+  ```
+
+- it will be blue
+- ## how it calculate which rule should be apply
+  - 1. Origin and Importance
+  - 2. Specificity
+  - 3. Order of Appearance
