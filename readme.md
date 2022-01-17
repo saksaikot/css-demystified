@@ -350,3 +350,7 @@
   - When calculating CSS specificity values, ignore the universal (_) selector.`_ { color: black; }`
   - Only the selector inside the :not() pseudo-class (negation pseudo-class) is counted. The :not() pseudo-class itself does not get counted.`:not(#some-id) { color: purple; } ` Specificity 1A
   - In case of a tie, the selector that’s farthest down the stylesheet wins.
+
+## 0030.Pricing cards introduction
+
+- exercise is done in the folder
