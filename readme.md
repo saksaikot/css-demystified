@@ -354,3 +354,11 @@
 ## 0030.Pricing cards introduction
 
 - exercise is done in the folder
+
+## 0031.A safe approach to css
+
+- rewrite the css according to lesson
+- BEM convention -`base element modifier`
+  - example `plan__title--dark`
+- keep the common property in base rule, then use the modifier class to update the changes
+- also used a utility class text-accent which is a dry code and we can reuse the class
