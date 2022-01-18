@@ -362,3 +362,14 @@
   - example `plan__title--dark`
 - keep the common property in base rule, then use the modifier class to update the changes
 - also used a utility class text-accent which is a dry code and we can reuse the class
+
+## 0032.Challenge pricing cards
+
+- answer in the folder
+
+## 0033.My solution pricing cards
+
+- button rules have problem with a tag
+- default a tag has default `display:inline`
+- `display:inline` can not set height,margin, and padding can be set but does not change content height
+- to solve this problem we can use `display:inline-block`
