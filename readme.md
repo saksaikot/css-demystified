@@ -373,3 +373,36 @@
 - default a tag has default `display:inline`
 - `display:inline` can not set height,margin, and padding can be set but does not change content height
 - to solve this problem we can use `display:inline-block`
+
+## 0034.Updated design
+
+- tried to solve the design
+
+## 0035.Updated design my solution
+
+- used variable
+
+  - variable are set in root element so that it cant be accessed globally `:root{}`
+  - variable name start with `--` double dash `--my-variable`
+  - to name the color added clr prefix `--clr-primary-100` here 100 is the color tone
+    - 500 is base, 100 is lightest and 900 is darkest
+  - to reuse the background color we takeout `--plan-light` to utilities ie- `--bg-light`
+  - to use the variable `var(--variable-name)`
+  - optionally we can add default value is variable is not defined `var(--variable-name,red)`
+  - body,h1..h6,block elements have default margin, we need to reset or change the margin accordingly
+  - we can use base with utility class to give separate style(ie separate bg,color)
+
+    ```css
+    button {
+      margin: 0;
+      padding: 2rem;
+      border: 0;
+      outline: 0;
+      background: var(--bg-btn, black);
+      color: var(--bg-clr, white);
+    }
+    dark-element {
+      --bg-btn: white;
+      --clr-btn: black;
+    }
+    ```
