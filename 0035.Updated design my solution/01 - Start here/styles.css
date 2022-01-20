@@ -52,7 +52,6 @@ section {
 .bg-dark {
   --btn-color: var(--clr-neutral-100);
   --btn-bg: var(--clr-primary-500);
-
   color: var(--clr-neutral-100);
   background: var(--clr-neutral-800);
 }
@@ -60,6 +59,7 @@ section {
 .bg-light {
   --btn-bg: var(--clr-neutral-800);
   --btn-color: var(--clr-neutral-100);
+  --plan-price-color: var(--clr-primary-500);
   color: var(--clr-neutral-800);
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
@@ -121,6 +121,7 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
+  color: var(--plan-price-color);
 }
 
 .plan__price span {
@@ -138,7 +139,7 @@ section {
   Teams
   ////////////// */
 .team {
-  background: #e5e3e8;
+  background: var(--clr-neutral-300);
   /* padding-top: 2rem; */
 }
 .team-members {
@@ -147,7 +148,6 @@ section {
 }
 
 .team-member {
-  background: #abc;
   text-align: left;
   flex: 1 1 45%;
   margin: 1em;
@@ -155,43 +155,31 @@ section {
   border-radius: 0.5em;
   align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+  line-height: 1.6;
 }
 
 .team-member img {
   width: 10rem;
   border-radius: 0.25em;
+  margin-right: 1rem;
 }
 
-.team-member .info {
-  padding-left: 1rem;
-}
 .team-member .name {
-  padding: 0;
   margin: 0;
   font-size: 1.75rem;
   font-weight: 900;
+  line-height: 1;
+  color: var(--plan-price-color);
 }
 .team-member .position {
-  padding: 0;
-  margin: 0;
-  font-size: 0.9rem;
+  margin-top: 0;
+  opacity: 0.8;
   font-weight: 700;
 }
-.team-member--light {
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+.team-member--mirrored {
+  padding: 0.5em 0.5em 0.5em 2em;
 }
-
-.team-member--dark {
-  background: #4e4e4e;
-  color: #fff;
-}
-
-.team-member--light .name {
-  color: #00a1ab;
-}
-.team-member--light .position {
-  color: #4e4e4e;
-}
-.team-member--dark .position {
-  color: #fafafa;
+.team-member--mirrored img {
+  order: 2;
+  margin: 0 0 0 1rem;
 }

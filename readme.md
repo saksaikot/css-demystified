@@ -406,3 +406,35 @@
       --clr-btn: black;
     }
     ```
+
+## 0036.Adding in custom properties
+
+- already did in last commit
+
+## 0037.Setting up the typography
+
+-
+
+## 0038.Mirroring the layout
+
+- used modifier class to mirror the layout
+- since the members is a flex layout we can change the order
+- we changed the order to 2,
+- we fixed the member padding and img left and right margin
+- other fixed
+
+  - the css is used two naming, one is bem and other is nesting
+  - in bem
+
+    ```html
+    <div class="plan">
+      <div class="plan__price plan--modifier"></div>
+    </div>
+    ```
+
+  - without bem to use it as global component style
+    ```html
+    <div class="plan">
+      <div class="price color-pop"></div>
+    </div>
+    ```

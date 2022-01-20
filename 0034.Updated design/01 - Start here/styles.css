@@ -86,33 +86,8 @@ section {
   margin: 0 0.5em;
 }
 
-.plan--dark {
-  color: #fff;
-  background: #4e4e4e;
-}
-
-.plan--light {
-  color: #4e4e4e;
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
-}
-
 .plan--light .plan__price {
   color: #00a1ab;
-}
-
-.plan--light .button {
-  color: white;
-  background: #4e4e4e;
-}
-
-.plan--accent {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
-}
-
-.plan--accent .button {
-  background: white;
-  color: #4e4e4e;
 }
 
 .plan__title {
@@ -125,6 +100,7 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
+  color: var(--plan-price-color);
 }
 
 .plan__price span {
