@@ -438,3 +438,10 @@
       <div class="price color-pop"></div>
     </div>
     ```
+
+## 0039.Starting to think about class naming
+
+- here talked about BEM naming convention and class separated by specificity
+  - bem is for flat css that can be repetitive writing
+  - we can use class separator
+    - `<class="price"> <class="amount" /></>` we can style it by `.price .amount{}` using specificity along with strict the scope
