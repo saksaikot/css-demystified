@@ -33,7 +33,7 @@
 *::before {
   box-sizing: border-box;
 }
-body,
+/* body,
 h1,
 h2,
 h3,
@@ -44,24 +44,76 @@ p,
 section {
   margin: 0;
   font-family: var(--ff-base);
-}
+} */
 
+html {
+  font-family: var(--ff-base);
+  line-height: 1.6;
+  font-size: var(--fs-400);
+  color: var(--clr-base-400);
+}
+img {
+  display: block;
+}
 /* /////////////////
   generale style
 //////////////////*/
+
+.tag {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-700);
+  display: inline-block;
+  border-radius: 100vw;
+  padding: 0.15em 0.75em;
+  color: var(--fg, #333);
+  background: var(--bg, lightgray);
+  margin-right: 0.5em;
+}
+.ux {
+  background: var(--clr-ux-300);
+  color: var(--clr-ux-400);
+}
+.ui {
+  background: var(--clr-ui-300);
+  color: var(--clr-ui-400);
+}
+.dev {
+  background: var(--clr-dev-300);
+  color: var(--clr-dev-400);
+}
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5em 3em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: var(--border-radius);
+  background-color: var(--clr-accent-400);
+}
 .candidate {
   padding: 1rem;
+}
+.candidate .name,
+.candidate .roles,
+.candidate .bio {
+  margin: 0;
 }
 .candidate > img {
   border-radius: var(--border-radius);
 }
 .candidate .name {
   font-family: var(--ff-accent);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-500);
+  line-height: 1;
   color: var(--clr-base-500);
   font-size: 2rem;
 }
-.candidate .roles .tag {
+.candidate .roles {
+  list-style: 1;
+  font-size: var(--fs-300);
+}
+/* .candidate .roles .tag {
   border-radius: 1rem;
   background-color: var(--clr-ux-300);
   color: var(--clr-ux-400);
@@ -69,26 +121,23 @@ section {
   font-size: 0.75rem;
   margin: 0 0.2rem;
   padding: 0 0.5rem;
-}
-.social {
+} */
+
+.candidate .social {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   padding: 0;
   margin-bottom: 0;
+  line-height: 1;
+}
+.candidate .social a:hover,
+.candidate .social a:focus {
+  opacity: 0.8;
 }
 
-.btn {
-  padding: 0.5em 3em;
-  text-decoration: none;
-  display: inline-block;
-  color: white;
-  text-transform: uppercase;
-  border-radius: var(--border-radius);
-  background-color: var(--clr-accent-400);
-}
 .candidate .btn {
-  align-self: end;
+  align-self: center;
   justify-self: end;
 }
 /* /////////////////

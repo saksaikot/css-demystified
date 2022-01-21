@@ -487,3 +487,9 @@
       ```
 
 ## 0041.My solution
+
+- `display:flex` has `justify-content` to setup space between items in row
+- when there is only image in the a tag it is best to use `aria-label=""` attribute to mention the text of the image so that screen reader can read it, `aria-label="twitter"`
+- `display:inline-block` uses whole width in grid layout to fix it we can use `align-self:center/end`, `align is top to bottom alignment` `justify` is column wise alignment
+- css reset: `img{display:block}`
+- use css hover and focus to {opacity:.8} so that it can show that is a actionable thing
