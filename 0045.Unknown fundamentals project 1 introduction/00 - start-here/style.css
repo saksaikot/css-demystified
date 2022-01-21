@@ -1,0 +1,28 @@
+/* Font used
+font-family: 'PT Sans', sans-serif; 
+*/
+:root {
+  --clr-neutral-light: #fff;
+  --clr-neutral-dark: #171717;
+  --clr-accent: #59e89c;
+  --ff: "PT Sans", sans-serif;
+}
+body {
+  font-family: var(--ff);
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-image: url(assets/hero.jpg);
+  /* padding: 8rem 12rem; */
+}
+.hero .container {
+  background-color: burlywood;
+}
+.hero .slogan {
+  padding: 4rem 3rem;
+  font-size: 2.2rem;
+}
+.hero .center {
+  text-align: center;
+}

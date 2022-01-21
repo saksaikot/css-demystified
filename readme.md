@@ -445,3 +445,45 @@
   - bem is for flat css that can be repetitive writing
   - we can use class separator
     - `<class="price"> <class="amount" /></>` we can style it by `.price .amount{}` using specificity along with strict the scope
+
+## 0040.Overlooked fundamentals final project
+
+- practice project
+- ## border-radius with padding is evil, radius will overflowed by padding, so be careful when use it with padding
+- selectors
+
+  - descendant selector (space)
+    - example `div p` select all p that is inside div including Descendant (or not direct child)
+  - child selector (>)
+    - example `div > p` select all p that direct child of div not Descendant (or not direct child)
+  - adjacent sibling selector (+)
+
+    - example `div+p` select immediate sibling that is only p
+    - example
+
+      ```html
+      <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+      </div>
+
+      <p>Paragraph 3. will be selected here</p>
+      <p>Paragraph 4. After a div.</p>
+      ```
+
+  - general sibling selector (~)
+
+    - example `div~p` select all siblings those are p and after div, this is only direct sibling
+    - example
+
+      ```html
+      <div>
+        <p>Paragraph 2.</p>
+      </div>
+
+      <p>Paragraph 3 will select</p>
+      <section><p>Some code is not select by the selector</p></section>
+      <p>Paragraph 4 will select</p>
+      ```
+
+## 0041.My solution
