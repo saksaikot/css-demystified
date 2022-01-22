@@ -515,3 +515,10 @@
 ## 0045.Unknown fundamentals project 1 introduction
 
 - here is a hero project to build which i could'nt build
+
+## 0046.Teaching you how to fish
+
+- talks about how to learn new things
+- talks about, mdn- mozilla development network
+- https://developer.mozilla.org/en-US/docs/Web/CSS
+- also good for javascript
