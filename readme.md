@@ -511,3 +511,7 @@
 
 - introduction about week 2 modules
 - unknown fundamentals where we may struggle
+
+## 0045.Unknown fundamentals project 1 introduction
+
+- here is a hero project to build which i could'nt build
