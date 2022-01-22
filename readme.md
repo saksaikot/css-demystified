@@ -493,3 +493,21 @@
 - `display:inline-block` uses whole width in grid layout to fix it we can use `align-self:center/end`, `align is top to bottom alignment` `justify` is column wise alignment
 - css reset: `img{display:block}`
 - use css hover and focus to {opacity:.8} so that it can show that is a actionable thing
+
+# 0042.A word on class naming
+
+- talked about css class naming convention
+  - bem
+  - compound naming
+  - cubic
+- naming convention is not a big issue, each naming convention solves a particular problem
+- try to be open, and see if any convention is speaking to you, means they are making sense to you
+
+## 0043.Overlooked fundamentals wrap up
+
+- here he talks about practicing and learning and not binge watching it and not absorb the content
+
+## 0044.The unknown fundamentals introduction
+
+- introduction about week 2 modules
+- unknown fundamentals where we may struggle
