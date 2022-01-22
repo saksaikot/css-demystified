@@ -522,3 +522,13 @@
 - talks about, mdn- mozilla development network
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 - also good for javascript
+
+## 0047.Introduction to formatting contexts
+
+- formatting context
+  - Everything is box, boxes inside box
+  - the behavior of boxes depend on the formatting context
+  - Four formatting context
+    - `block`, `inline`, `flex`, `grid`
+  - there are specific rules how content flow or format
+  - if we learn these rules we can be consistent and will predict the design
