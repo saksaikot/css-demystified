@@ -557,5 +557,34 @@
 
 ## 0049.Block formatting context
 
-- margin example 50px and 0px block element
-  ![margin example 50px and 0px block element](./images/49/1.jpg)
+- Default html context
+
+  - Boxes are laid out one on top of each other. Even if there is room, they won't try to squeeze in.  
+    ![1](./images/49/1.jpg) ![2](images/49/2.jpg)
+  - Margin between elements collapse  
+    ![3](images/49/3.jpg) ![4](images/49/4.jpg) ![5](images/49/5.jpg) ![6](images/49/6.jpg) ![7](images/49/7.jpg)
+  - And even move the parent element  
+    ![8](images/49/8.jpg)
+
+- A BFC as like a mini layout inside your page. Once an element creates a BFC
+
+  - Everything is contained inside it.
+  - Excludes all externally floated elements
+  - Stop margin collapsing
+  - Example
+
+    - Without bfc the margin-top of first paragraph and margin-bottom of last paragraph is collapsed,but with bfc it includes the margin.  
+      ![9](images/49/9.jpg)
+    - It also makes the floating text block element  
+      ![10](images/49/10.jpg)
+
+- The root of our document (the html element) creates a block formatting context, which all of our content lives inside
+- We can create new block formatting contexts within our document as well.
+- You can create a new block formatting context in a lot of ways (this is just a few)
+  - Using `float`
+  - `position` is `abosolute` , `fixed` , or `inline-block`
+  - `overflow` of anything except visible
+  - Using `columns`
+  - Flex and grid items
+  - `display: flow-root`
+- Note: with so many things creating a new formatting context, and because a new block formatting context stops margins from collapsing, it can be hard to be consistent
