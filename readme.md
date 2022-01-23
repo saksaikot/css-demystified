@@ -669,3 +669,14 @@
   ```
 
 - [code-pen example](https://codepen.io/kevinpowell/pen/83fa8fbdf17588511de97f74a4c326fe)
+
+## 0055.Creating a css rule for flow content consistency
+
+- ### Some fonts can give extra top and bottom gap without any margin or padding
+- [code-pen example](https://codepen.io/kevinpowell/pen/83fa8fbdf17588511de97f74a4c326fe)
+- demonstrate more on flow-content reset
+- we want the grid and the flex flow content to not give the extra space to make it like normal flow text
+- `.flow-content > *` all direct child of flow-control
+- `.flow-content > *:last-child` save as above but if only is the last child
+- `.flow-content > * + *` all direct child of flow-control and has a sibling before it
+- we only want to use it where we need it
