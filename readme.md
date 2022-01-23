@@ -617,3 +617,55 @@
     formatting context, means children of flex items does not have the flex formatting contexts
 - ### grid formatting context is same as flex formatting context, but different layout
 - [example code-pen](https://codepen.io/kevinpowell/pen/11c167c4d7265c9414c3a45904cb2c16)
+
+## 0054.Consistency
+
+- The reason collapsing margins have inconsistency that text element and some other elements have default `margin-top` and `margin-bottom`
+- one of the solution is reset
+
+  - some people use below code to reset the default spacing
+
+    ```css
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    ```
+
+  - there is a problem with this approach, it will also reset some of the defaults that can be useful, like the ul and li when we are using it to show the bullet with padding.
+  - To solve the problem we can do a selective reset
+  - example
+
+  ```css
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  }
+  ul[class] {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ```
+
+  - some time we want everything should behave like regular flow, there are two way to achieve that
+
+  ```css
+  /*method:1*/
+  .flow-content > * {
+    margin-bottom: 1rem;
+  }
+  .flow-content > *:last-child {
+    margin-bottom: 0;
+  }
+  /*method:2*/
+  .flow-content > * + * {
+    margin-top: 1rem;
+  }
+  ```
+
+- [code-pen example](https://codepen.io/kevinpowell/pen/83fa8fbdf17588511de97f74a4c326fe)
