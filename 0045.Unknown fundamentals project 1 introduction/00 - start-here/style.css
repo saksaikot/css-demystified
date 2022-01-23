@@ -12,22 +12,21 @@ font-family: 'PT Sans', sans-serif;
 }
 body {
   font-family: var(--ff);
-
+  font-size: 1.25rem;
+  font-weight: 400;
   margin: 0;
-  padding: 0;
 }
 .hero {
   background-image: url(assets/hero.jpg);
   background-size: cover;
   text-align: center;
-
+  padding: 10rem 0;
   /* padding: 8rem 12rem; */
 }
-.hero h2 {
-  margin: 0;
-}
+
 .hero__content {
-  background-color: burlywood;
-  margin: 6rem 3rem;
+  background-color: #fff;
+  margin: 0 auto;
   width: 80vw;
+  max-width: 40rem;
 }

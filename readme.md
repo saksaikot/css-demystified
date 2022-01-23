@@ -588,3 +588,13 @@
   - Flex and grid items
   - `display: flow-root`
 - Note: with so many things creating a new formatting context, and because a new block formatting context stops margins from collapsing, it can be hard to be consistent
+
+## 0050.Formatting context and floats
+
+- example of previous lesson
+
+## 0051.Collapsing margins in action
+
+- in 45.0045.Unknown fundamentals project 1 introduction folder, we updated the hero code by fixing the margin collapse
+- if the parent and the child are in same position then the margin collapse happen and parent move with child
+- adding padding to parent will break this situation
