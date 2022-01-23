@@ -604,4 +604,16 @@
 - solving the problem using block formatting context
 - we give the parent `columns:1` and removed the padding and added it to child margin
 - with this solution the layout is dependent with child, that type of solution is discouraged by the teacher
--
+
+## 0053.Flex and grid formatting contexts
+
+- When we declare `display: flex` on an element, it establishes a flex formatting context
+- While very similar to establishing a new block formatting context, there are a few differences:
+  - `float` and `clear` don't work
+  - It's margins do not collapse with it's children's margins
+  - The children are part of a flex layout, not a
+    box layout
+  - The children (flex items), establish their own
+    formatting context, means children of flex items does not have the flex formatting contexts
+- ### grid formatting context is same as flex formatting context, but different layout
+- [example code-pen](https://codepen.io/kevinpowell/pen/11c167c4d7265c9414c3a45904cb2c16)
