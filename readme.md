@@ -598,3 +598,10 @@
 - in 45.0045.Unknown fundamentals project 1 introduction folder, we updated the hero code by fixing the margin collapse
 - if the parent and the child are in same position then the margin collapse happen and parent move with child
 - adding padding to parent will break this situation
+
+## 0052.Creating a new formatting context
+
+- solving the problem using block formatting context
+- we give the parent `columns:1` and removed the padding and added it to child margin
+- with this solution the layout is dependent with child, that type of solution is discouraged by the teacher
+-

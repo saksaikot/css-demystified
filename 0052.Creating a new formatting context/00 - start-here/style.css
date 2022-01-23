@@ -1,0 +1,32 @@
+/* Font used
+font-family: 'PT Sans', sans-serif; 
+*/
+:root {
+  --clr-neutral-light: #fff;
+  --clr-neutral-dark: #171717;
+  --clr-accent: #59e89c;
+  --ff: "PT Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+}
+.hero {
+  background-image: url(assets/hero.jpg);
+  background-size: cover;
+  text-align: center;
+  /* padding: 10rem 0; */
+  columns: 1;
+}
+
+.hero__content {
+  background-color: #fff;
+  margin: 10rem auto;
+  width: 80vw;
+  max-width: 40rem;
+}
