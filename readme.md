@@ -532,3 +532,27 @@
     - `block`, `inline`, `flex`, `grid`
   - there are specific rules how content flow or format
   - if we learn these rules we can be consistent and will predict the design
+
+## 0048.Inline formatting context and anonymous boxes
+
+- inline formatting context & anonymous boxes
+- common used inline elements are -`SPAN, STRONG, EM, LINKS(<a></a>)`
+- inline elements go next to one another
+- inline elements have some limitation
+- other inline elements `<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>`
+- In a horizontal writing mode, margins and padding, above and below the element will not be applied.
+- When we have a block level element, it can either contain other block elements, or inline elements. it cannot contain a mix of them.
+- example
+
+  ```html
+  <div>
+    sentence 1
+    <p>sentence 2</p>
+
+    sentence 3
+  </div>
+  ```
+
+  - all sentence 1,2,3 are block level element, and sentence 1 and 3 are anonymous element, this is done by the browser under the hood, we don't have any control over it
+
+-
