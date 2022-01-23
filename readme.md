@@ -555,4 +555,7 @@
 
   - all sentence 1,2,3 are block level element, and sentence 1 and 3 are anonymous element, this is done by the browser under the hood, we don't have any control over it
 
--
+## 0049.Block formatting context
+
+- margin example 50px and 0px block element
+  ![margin example 50px and 0px block element](./images/49/1.jpg)
