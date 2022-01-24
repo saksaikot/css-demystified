@@ -680,3 +680,7 @@
 - `.flow-content > *:last-child` save as above but if only is the last child
 - `.flow-content > * + *` all direct child of flow-control and has a sibling before it
 - we only want to use it where we need it
+
+## 0056.Adding consistency to our magic page
+
+- copy the magic in the air
