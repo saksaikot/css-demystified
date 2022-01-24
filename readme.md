@@ -723,3 +723,7 @@ Completed the exercise, cheated little bit. Join section is left unfinished, ove
 Mobile first design- design for mobile first
 Then plan what style can be used multiple times and use them in utility class mean common designs
 container padding given from variable
+
+## 0060.Adding columns
+
+Added responsive split utility class, which on small column and row on bigger screen
