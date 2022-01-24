@@ -707,3 +707,9 @@ Added utility class
 ```
 
 All this reset will solve the inconsistency, ie: the padding of hero_content become consistent
+
+## 0057.Magic page finishing touches
+
+Added style to button
+Updated margin-top of flow-content
+fixed missing style of h2 heading with span

@@ -24,7 +24,7 @@ a {
 }
 /* utility classes */
 .flow-content > * + * {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
 }
 /* general */
 body {
@@ -33,6 +33,19 @@ body {
   font-weight: 400;
   margin: 0;
 }
+.btn {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.115rem;
+  display: inline-block;
+  padding: 1em 0.8em;
+  color: inherit;
+  background: var(--clr-accent);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* hero section */
 .hero {
   background-image: url(assets/hero.jpg);
   background-size: cover;
@@ -46,4 +59,11 @@ body {
   margin: 0 auto;
   width: 80vw;
   max-width: 40rem;
+  padding: 2rem;
+}
+.hero__content h2 {
+  font-weight: 500;
+}
+.hero__content h2 span {
+  font-weight: 900;
 }
