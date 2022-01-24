@@ -717,3 +717,9 @@ fixed missing style of h2 heading with span
 ## 0058.A look at the updated design
 
 Completed the exercise, cheated little bit. Join section is left unfinished, overall good
+
+## 0059.Easy wins
+
+Mobile first design- design for mobile first
+Then plan what style can be used multiple times and use them in utility class mean common designs
+container padding given from variable
