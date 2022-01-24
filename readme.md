@@ -713,3 +713,7 @@ All this reset will solve the inconsistency, ie: the padding of hero_content bec
 Added style to button
 Updated margin-top of flow-content
 fixed missing style of h2 heading with span
+
+## 0058.A look at the updated design
+
+Completed the exercise, cheated little bit. Join section is left unfinished, overall good
