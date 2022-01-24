@@ -7,9 +7,26 @@ font-family: 'PT Sans', sans-serif;
   --clr-accent: #59e89c;
   --ff: "PT Sans", sans-serif;
 }
-* {
+/* reset */
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+a {
+  display: inline-block;
+}
+/* utility classes */
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+/* general */
 body {
   font-family: var(--ff);
   font-size: 1.25rem;

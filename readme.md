@@ -683,4 +683,27 @@
 
 ## 0056.Adding consistency to our magic page
 
-- copy the magic in the air
+Copy the magic in the air
+Added reset
+
+```css
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+a {
+  display: inline-block;
+}
+```
+
+Added utility class
+
+```css
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+```
+
+All this reset will solve the inconsistency, ie: the padding of hero_content become consistent
