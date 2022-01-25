@@ -752,3 +752,29 @@ then we can use the z-index to tell which element to on top, z-index value can b
 ## 0065.Exploring z index
 
 The default position value is `static`, if the position value other than static only then we can use z-index.In flex and grid context we can use z-index without using the position
+
+## 0066.Stacking context deep dive
+
+Stacking context create a z-axis for its direct child, children can have their own formatting context. When stacking context created its child are isolated within its plane. Other elements cannot affect it. When we create a new stacking context, z-index is no longer relative to the root, but to that individual context.
+
+![1](images/66/1.jpg)  
+Here, there are two stacking context, one is with white background and have two children,grey and light blue.Light blue also have two children and it is also a stacking context with two children orange and blue. child 2(blue background), of light-blue has a higher z-index, so it will be top on the stack.
+
+![2](images/66/2.jpg)  
+If we give light gray element a z-index of 11, it will be on top of the stack, not in between orange and blue element.
+
+![3](images/66/3.jpg)  
+because the stack context of light gray is different then the its parents. Parent(white background) have two child and its only concern with it, then the stacking context of light blue is different.Thats why the gray element comes on top of the stack.
+
+![4](images/66/4.jpg)
+
+Similarly to formatting contexts, one of the frustrating things about stacking context is that there are so many things which create a new stacking context!
+
+- The root element of our page
+- Both flex and grid items which have a **z-index other than auto**
+- Elements with an **opacity that isn't 1**
+- Elements with a `transform` , `filter`, `perspective`, `clip-path`, `mask` , or `mix-blend-mode `
+- Elements with a `position: absolute` or `position: relative` which **also have a z-index**
+- Elements with a `position: fixed` or a `position: sticky`
+
+**This can be incredibly frustrating but knowing what is causing issues with stacking context means you have the tools and knowledge to fix problems when they happen**
