@@ -743,3 +743,12 @@ Using the spacing variable we can set a default flow-content spacing and increas
 ## 0063.Stacking context and containing blocks introduction
 
 Stacking context and containing blocks are related
+
+## 0064.Introduction to stacking context
+
+Normally elements placed one after another, but in stack, elements are on top of another.
+then we can use the z-index to tell which element to on top, z-index value can be set `-n to +n` the higher the number it will be on top.
+
+## 0065.Exploring z index
+
+The default position value is `static`, if the position value other than static only then we can use z-index.In flex and grid context we can use z-index without using the position
