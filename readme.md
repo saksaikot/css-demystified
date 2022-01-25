@@ -778,3 +778,14 @@ Similarly to formatting contexts, one of the frustrating things about stacking c
 - Elements with a `position: fixed` or a `position: sticky`
 
 **This can be incredibly frustrating but knowing what is causing issues with stacking context means you have the tools and knowledge to fix problems when they happen**
+
+## 0067.Stacking context in action
+
+Here teacher show us an example, like the work done in magic 2 design. there we used a before sudo element to create a style and push it back to image.Like that here the box moved under the parent background.but when we create a new stack in content then the box cannot be moved behind the content background.because it is on that background. Earlier it was possible because it was on root stack. the moment we create the content stack, its child cannot scape its box, it remain within.
+
+[stacking context 1 - code-pen](https://codepen.io/kevinpowell/pen/eaf65f67468a027bba85829010ea580d)
+
+## 0068.When stacking context breaks things
+
+Same example is given here but on complex situation, even when we try to add animation, like `transform` it creates a new stack and suddenly css will not work as expected because of new stack context.
+[stacking context 2 - code-pen](https://codepen.io/kevinpowell/pen/a8b499ddfc3e4b17a414dc151fabb1e0)
