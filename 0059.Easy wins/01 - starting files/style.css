@@ -35,9 +35,11 @@ p {
 
 /* Utility classes */
 .flow-content > * + * {
-  margin-top: 1.25rem;
+  margin-top: var(--flow-space, var(--spacer));
 }
-
+.flow-content--large {
+  --flow-space: 3rem;
+}
 img {
   max-width: 100%;
   height: auto;

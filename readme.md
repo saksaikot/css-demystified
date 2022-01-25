@@ -733,3 +733,7 @@ Added responsive split utility class, which on small column and row on bigger sc
 Added before element, remember to use it without space like `.join-now li::before`, otherwise it will select all the children.
 fixed margin reset of ul
 added background to cta class
+
+## 0062.Stepping up our spacing utility
+
+Using the spacing variable we can set a default flow-content spacing and increase it with a modifier
