@@ -21,7 +21,7 @@
 - css works the way it suppose to work
 - learn Why Is CSS So Weird? by Miriam Suzanne https://www.youtube.com/watch?v=aHUtMbJw8iA
   - CSS is designed not to loose content and not cause harm
-  - there are lots of devices which means the canvas is exactly known
+  - there are lots of devices which means the canvas is not exactly known
   - css is there just to suggest how the content should visible
   - the default behavior is not to loose any content, thats why we see overflow content
 
@@ -341,13 +341,13 @@
 - https://specificity.keegan.st/ to calculate css specificity
 - specificity calculation rules:
   - A. IDs `#container #main #sidebar`
-  - B. Classes `navbar .logo`, attributes `[type="text"]` and pseudo-classes `:visited :hover :active`
+  - B. Classes `.logo`, attributes `[type="text"]` and pseudo-classes `:visited :hover :active`
   - C. Elements `div` and pseudo-elements `::before ::after ::first-line`
   - `#container #main` will calculate 2A,
   - `navbar::before` will calculate 1B+1C
   - A>B>C, so 1A will win with 10B+10C
 - ### Special Rules
-  - When calculating CSS specificity values, ignore the universal (_) selector.`_ { color: black; }`
+  - When calculating CSS specificity values, ignore the universal (\*) selector.`* { color: black; }`
   - Only the selector inside the :not() pseudo-class (negation pseudo-class) is counted. The :not() pseudo-class itself does not get counted.`:not(#some-id) { color: purple; } ` Specificity 1A
   - In case of a tie, the selector that’s farthest down the stylesheet wins.
 
@@ -727,3 +727,9 @@ container padding given from variable
 ## 0060.Adding columns
 
 Added responsive split utility class, which on small column and row on bigger screen
+
+## 0061.The square corner decorations
+
+Added before element, remember to use it without space like `.join-now li::before`, otherwise it will select all the children.
+fixed margin reset of ul
+added background to cta class

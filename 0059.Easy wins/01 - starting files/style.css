@@ -46,7 +46,6 @@ img {
 
 ul[class] {
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 /* utility class */
@@ -61,6 +60,9 @@ ul[class] {
 }
 .text-accent {
   color: var(--clr-accent-400);
+}
+.shadow {
+  box-shadow: var(--box-shadow);
 }
 .split {
   display: flex;
@@ -118,4 +120,21 @@ section {
   section {
     padding: 8.125rem 0;
   }
+}
+
+/* section styles */
+.join-now li::before {
+  content: "";
+  background: var(--clr-accent-400);
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
+}
+.cta {
+  text-align: center;
+  background: url(assets/cta-bg.jpg);
+  background-size: cover;
 }
