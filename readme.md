@@ -825,3 +825,8 @@ We can use `position:absolute` on our magic site and use the `top/left` property
 
 [Containing block part 3](https://codepen.io/kevinpowell/pen/4342fec38135b1f186d7daf841541a67)
 If `position:absolute` than its containing block is nearest positioned ancestor. But for `position:fixed` the containing block is view port
+
+## 0076.Containing block edge cases
+
+If we add hover effect `.parent:hover{transform:translateX(1em)}` then the containing block of fixed element will be the parent instead of view port. so on hover there will be glitch, like the fixed element will come back to inside of parent
+To solve this type of issue always make a separate element rather then having a nested element.
