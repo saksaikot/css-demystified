@@ -803,3 +803,11 @@ solved earlier
 Containing blocks that contains elements.Most of the time like 90% containing block is the parent element.To understand that we need to understand the relationship between element and containing block.The size of an element is influenced by its containing block, ie: we set width,padding,margin with percentage that is percent of the containing block.  
 [Example code-pen](https://codepen.io/kevinpowell/pen/eb354461708681bda2b819a7e31783de)  
 We already set the width with percentage unit. but if we try this with height or the vertical property like margin/padding top/bottom then it will not be the percentage of height, instead it will use the width. It is because if it use the height of parent then when the child is grown then the parent will also grown and it will make the process in a loop.
+
+## 0072.When the containing block is not the parent
+
+When we use `position:absolute` then the parent is no longer the containing block, instead its the nearest ancestor which has a position other then the default `static`.If there is no position other than default than it will be html as it is the root element.
+
+When we use `position:fixed` the containing block of that element is view port(most of the time)
+
+For both `position: absolute/fixed` the containing block also be nearest ancestor that has `transform`,`perspective`,`filter` as well as `contain:paint`
