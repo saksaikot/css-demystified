@@ -815,3 +815,8 @@ For both `position: absolute/fixed` the containing block also be nearest ancesto
 ## 0073.Containing blocks on the magic site
 
 We can use `position:absolute` on our magic site and use the `top/left` property to move the light-green square.But soon we use the `top/left` property, because we never used the position it will move all the top of the page. So we need to make it container where we need. we know it is under `.join-now li`. So we give `.join-now li` a `position:relative` declaration. So it becomes the containing block.then we can simply use `top:-.5rem;left:-.5rem` and delete the `transform`.
+
+## 0074.Containing blocks in action
+
+[Containing block part 2 code-pen](https://codepen.io/kevinpowell/pen/5ccee3fa284350e67451551bcb5f61c3)  
+`position:absolute` open up `top/left/bottom/right` property. As usual the containing block will be nearest ancestor.We can make its parent the containing block by adding `position:relative`. `position:absolute` remove the element out of the flow which means it will ignored like it is not the
