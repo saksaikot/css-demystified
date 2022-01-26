@@ -789,3 +789,5 @@ Here teacher show us an example, like the work done in magic 2 design. there we 
 
 Same example is given here but on complex situation, even when we try to add animation, like `transform` it creates a new stack and suddenly css will not work as expected because of new stack context.
 [stacking context 2 - code-pen](https://codepen.io/kevinpowell/pen/a8b499ddfc3e4b17a414dc151fabb1e0)
+
+## 0069.Stacking context coming into play
