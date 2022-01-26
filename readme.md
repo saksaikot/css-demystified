@@ -820,3 +820,8 @@ We can use `position:absolute` on our magic site and use the `top/left` property
 
 [Containing block part 2 code-pen](https://codepen.io/kevinpowell/pen/5ccee3fa284350e67451551bcb5f61c3)  
 `position:absolute` open up `top/left/bottom/right` property. As usual the containing block will be nearest ancestor.We can make its parent the containing block by adding `position:relative`. `position:absolute` remove the element out of the flow which means it will ignored like it is not the
+
+## 0075.Containing blocks a more complex example
+
+[Containing block part 3](https://codepen.io/kevinpowell/pen/4342fec38135b1f186d7daf841541a67)
+If `position:absolute` than its containing block is nearest positioned ancestor. But for `position:fixed` the containing block is view port
