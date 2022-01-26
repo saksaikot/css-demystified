@@ -811,3 +811,7 @@ When we use `position:absolute` then the parent is no longer the containing bloc
 When we use `position:fixed` the containing block of that element is view port(most of the time)
 
 For both `position: absolute/fixed` the containing block also be nearest ancestor that has `transform`,`perspective`,`filter` as well as `contain:paint`
+
+## 0073.Containing blocks on the magic site
+
+We can use `position:absolute` on our magic site and use the `top/left` property to move the light-green square.But soon we use the `top/left` property, because we never used the position it will move all the top of the page. So we need to make it container where we need. we know it is under `.join-now li`. So we give `.join-now li` a `position:relative` declaration. So it becomes the containing block.then we can simply use `top:-.5rem;left:-.5rem` and delete the `transform`.
