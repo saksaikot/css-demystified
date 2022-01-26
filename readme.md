@@ -791,3 +791,5 @@ Same example is given here but on complex situation, even when we try to add ani
 [stacking context 2 - code-pen](https://codepen.io/kevinpowell/pen/a8b499ddfc3e4b17a414dc151fabb1e0)
 
 ## 0069.Stacking context coming into play
+
+used `.a-center { align-items: center;}` class to align items in center vertically.`.hero img { transform: translateY(2em);}` to move the image 2em down.Now the problem is image is getting on top of the header, cause their z-index are same and img comes after header. To fix this we can set z-index to high, ie:999 so it gets a higher value and stay on top of everything.
