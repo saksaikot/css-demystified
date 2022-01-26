@@ -797,3 +797,9 @@ used `.a-center { align-items: center;}` class to align items in center vertical
 ## 0070.Fixing the stacking issue
 
 solved earlier
+
+## 0071.Introduction to containing blocks
+
+Containing blocks that contains elements.Most of the time like 90% containing block is the parent element.To understand that we need to understand the relationship between element and containing block.The size of an element is influenced by its containing block, ie: we set width,padding,margin with percentage that is percent of the containing block.  
+[Example code-pen](https://codepen.io/kevinpowell/pen/eb354461708681bda2b819a7e31783de)  
+We already set the width with percentage unit. but if we try this with height or the vertical property like margin/padding top/bottom then it will not be the percentage of height, instead it will use the width. It is because if it use the height of parent then when the child is grown then the parent will also grown and it will make the process in a loop.
