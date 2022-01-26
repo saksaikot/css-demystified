@@ -793,3 +793,7 @@ Same example is given here but on complex situation, even when we try to add ani
 ## 0069.Stacking context coming into play
 
 used `.a-center { align-items: center;}` class to align items in center vertically.`.hero img { transform: translateY(2em);}` to move the image 2em down.Now the problem is image is getting on top of the header, cause their z-index are same and img comes after header. To fix this we can set z-index to high, ie:999 so it gets a higher value and stay on top of everything.
+
+## 0070.Fixing the stacking issue
+
+solved earlier
