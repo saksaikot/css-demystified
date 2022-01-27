@@ -296,7 +296,13 @@ section {
   font-weight: var(--fw-700);
 }
 .cta {
-  background-image: url(assets/cta-bg.jpg);
   background-size: cover;
   text-align: center;
+  background-blend-mode: multiply;
+}
+.cta.bg-light {
+  background-image: url(assets/cta-bg-1.jpg);
+}
+.cta.bg-accent {
+  background-image: url(assets/cta-bg-2.jpg);
 }
