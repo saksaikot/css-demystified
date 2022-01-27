@@ -839,3 +839,7 @@ created new updated challenge, had problem when tried to set custom variable (--
 ## 0078.More easy wins
 
 apply flow-content and flow-content--large on testimonials as well as to cta to give it bigger spacing.I missed the cta part.
+
+## 0079.Setting up the typography
+
+setting up typography, now use the variable and line height.reset h1 and .h1 and others to 1.1.added h2 and h2 class so that h2 and other like p tag can be styled as h2. added text-weight-normal class.
