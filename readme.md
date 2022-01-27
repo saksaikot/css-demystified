@@ -843,3 +843,7 @@ apply flow-content and flow-content--large on testimonials as well as to cta to 
 ## 0079.Setting up the typography
 
 setting up typography, now use the variable and line height.reset h1 and .h1 and others to 1.1.added h2 and h2 class so that h2 and other like p tag can be styled as h2. added text-weight-normal class.
+
+## 0080.Fun with custom properties
+
+We can utilise the custom property and add the color and background according to color type, ie: bg-light,bg-dark, and bg-accent.
