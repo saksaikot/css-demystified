@@ -855,3 +855,8 @@ used bg-dark and bg light in the testimonial, also used `.testimonial p:first-of
 ## 0082.Even more custom properties
 
 used custom variable in split spacing, for hero used 3rem and for testimonials 4rem
+
+## 0083.The corner squares updated
+
+The join-now image corner is renamed to corner-square utility class. There will be problem if we apply this class to testimonial. the corner will be behind the padding. because the content of the testimonial start from the content.We can fix this by using `top` and `left` but making the corner-square `position:absolute`.  
+`.corner-square:nth-of-type(value)`, value can be 1,2,3.. or formula like n+1,2n,2n+1 where n will be 0,1,2,3
