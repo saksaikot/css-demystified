@@ -847,3 +847,7 @@ setting up typography, now use the variable and line height.reset h1 and .h1 and
 ## 0080.Fun with custom properties
 
 We can utilise the custom property and add the color and background according to color type, ie: bg-light,bg-dark, and bg-accent.
+
+## 0081.The testimonial
+
+used bg-dark and bg light in the testimonial, also used `.testimonial p:first-of-type` to make the `font-type:italic`

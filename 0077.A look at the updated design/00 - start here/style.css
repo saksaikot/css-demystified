@@ -109,13 +109,17 @@ img {
 }
 
 [class*="bg-"] {
-  color: var(--fg, var(--clr-neutral-100));
-  background: var(--bg, var(--clr-neutral-900));
+  color: var(--fg, var(--clr-neutral-900));
+  background: var(--bg, var(--clr-neutral-100));
 }
 
 .bg-dark {
   --fg: var(--clr-neutral-100);
   --bg: var(--clr-neutral-900);
+}
+.bg-light {
+  --bg: var(--clr-neutral-100);
+  --fg: var(--clr-neutral-900);
 }
 
 .bg-accent {
@@ -289,7 +293,7 @@ section {
   font-weight: var(--fw-700);
 }
 .cta {
-  /* background-image: url(assets/cta-bg.jpg); */
+  background-image: url(assets/cta-bg.jpg);
   background-size: cover;
   text-align: center;
 }
