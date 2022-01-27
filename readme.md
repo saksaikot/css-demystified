@@ -835,3 +835,7 @@ To solve this type of issue always make a separate element rather then having a 
 
 challenge Magic v4
 created new updated challenge, had problem when tried to set custom variable (--bg), I used same custom name for corner bg, then I renamed the corner custom variable name. My corner with is little bit different than the finished one.
+
+## 0078.More easy wins
+
+apply flow-content and flow-content--large on testimonials as well as to cta to give it bigger spacing.I missed the cta part.
