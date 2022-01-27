@@ -830,3 +830,8 @@ If `position:absolute` than its containing block is nearest positioned ancestor.
 
 If we add hover effect `.parent:hover{transform:translateX(1em)}` then the containing block of fixed element will be the parent instead of view port. so on hover there will be glitch, like the fixed element will come back to inside of parent
 To solve this type of issue always make a separate element rather then having a nested element.
+
+## 0077.A look at the updated design
+
+challenge Magic v4
+created new updated challenge, had problem when tried to set custom variable (--bg), I used same custom name for corner bg, then I renamed the corner custom variable name. My corner with is little bit different than the finished one.
