@@ -929,3 +929,5 @@ This happens because if we do not set a `flex-basis` on an element, the default 
 
 If the content is the same then the widths are equal.Luckily there is a very easy fix to this inconsistency.If we set for all `p` the `flex-basis is 100%` ei: `p{flex-basis:100%}`then it solved our problem, but if there is an `a` element instead of `p` tag than again `a` element takes less space.To solve this we can use universal selector, ie`.content > *{flex-basis:100%}` (select all the direct child of the flex container). This tells the flex that all the item should be 100% as well as same width or equal proportion.
 But often we need more complicated solutions that either wrap or which have columns of different widths. like main content and the sidebar of a website.
+
+## 0091.Content vs layout in action introduction
