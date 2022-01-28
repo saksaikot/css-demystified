@@ -891,3 +891,7 @@ Lets have a look on this design we did earlier ![1](images/88/1.jpg)
 when we created the mirror modifier then our layout was little bit broken. because of the margin left. and these margin left and right is little bit complicate thinks, cause it will be impact on single column layout or in mobile view and then need to reset them. Teacher talked about another way to do that so that it can be tackled.
 
 From his slide, in the given layout the content has a big influence on the layout in a way that **caused us problems**.while this isn't always the case, margin-left and margin-right on content isn't ideal.If we create a versatile layout, **it can accept any content** and work as intended.Let's go fix those cards.
+
+## 0089.Fixing the problem
+
+the given solution was, using gap property we solve the problem. if gap is not available then we can use like flow-content.
