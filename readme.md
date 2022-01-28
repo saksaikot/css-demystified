@@ -873,3 +873,9 @@ used `background-blend-mode: multiply` which will blend the background image and
   background-image: url(assets/cta-bg-2.jpg);
 }
 ```
+
+# 11.Content vs. Layout, Module 3
+
+## 0086.Introduction to module 3
+
+will discuss about flex box, and little bit of grid. will talk about content and layout, content could have its own layout. will explore how these works.will be work on little project.first the theory and then the practice.
