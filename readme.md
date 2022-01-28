@@ -879,3 +879,15 @@ used `background-blend-mode: multiply` which will blend the background image and
 ## 0086.Introduction to module 3
 
 will discuss about flex box, and little bit of grid. will talk about content and layout, content could have its own layout. will explore how these works.will be work on little project.first the theory and then the practice.
+
+## 0087.Content vs layout
+
+Relationship between layout and content makes difficult to create layouts.And we know its all about relationship, ie the width of an element is by default is the width of the containing block.And by default the height of an element is dependant on its content.It makes thing predictable.As long it is in normal flow. Things get **more complicated** when we try to build layouts.This module is about making everything as predictable and consistent as possible.By creating layouts that are not influenced( in unexpected ways) by their content.
+If we successfully separate layout and content, we create a plug and play type situation.
+
+## 0088.Remember this
+
+Lets have a look on this design we did earlier ![1](images/88/1.jpg)
+when we created the mirror modifier then our layout was little bit broken. because of the margin left. and these margin left and right is little bit complicate thinks, cause it will be impact on single column layout or in mobile view and then need to reset them. Teacher talked about another way to do that so that it can be tackled.
+
+From his slide, in the given layout the content has a big influence on the layout in a way that **caused us problems**.while this isn't always the case, margin-left and margin-right on content isn't ideal.If we create a versatile layout, **it can accept any content** and work as intended.Let's go fix those cards.
