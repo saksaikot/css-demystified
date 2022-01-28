@@ -57,9 +57,9 @@ p {
     justify-content: space-between;
   }
 
-  /* .split > * {
+  .split > * {
     flex-basis: 100%;
-  } */
+  }
 
   .split > * + * {
     margin: 0 0 0 var(--spacer);

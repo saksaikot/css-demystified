@@ -934,3 +934,7 @@ But often we need more complicated solutions that either wrap or which have colu
 
 Added card padding and box-shadow, added section padding, added h1 line-height,added class to html to apply the layout.
 also talked about if using container class or use the section to achieve the same. Its all depend the design, if design allows then we can use it.
+
+## 0092.Making things more consistent in action
+
+here we solve the not equal column size, we added for all split that are direct child have flex-basis:100%
