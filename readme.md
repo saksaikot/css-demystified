@@ -895,3 +895,37 @@ From his slide, in the given layout the content has a big influence on the layou
 ## 0089.Fixing the problem
 
 the given solution was, using gap property we solve the problem. if gap is not available then we can use like flow-content.
+
+## 0090.A deeper look at flex-box
+
+Flexbox was the **first real layout tool** we had in css. It opened up doors and more widely used than grid.But it is little quirky and can throw some curve balls at you. Before we get to the curve balls, let's explore what happens when we use flexbox.
+
+[Flexbox codepen, content vs layout 02](https://codepen.io/kevinpowell/pen/zYBLybz)
+
+**Layout with flexbox**
+
+To make layouts flexible, flexbox changes how the size of flex items are calculated.There are three properties at play here:
+
+- `flex-basis`
+- `flex-shrink`
+- `flex-grow`
+
+**Flex basis**
+`flex-basis` is the **main size** of a flex item. We say "main size" and not width, because the `flex-direction` changes the direction `flex-basis` works in.
+But to simplify matters, lets think of it as the width of the element.
+
+- when we apply `display:flex` then all of its direct children display in column, the default `flex-direction:column` applied automatically.Now if we grow and shrink our viewport, by increase and decrease the width than we can see the direct child width also be shrink or grow and one point if there is no space to shrink then it overflow.Direct child of flex is called flex item they live side by side.Also if there is lots of flex item that cannot be fit by their container than it overflow.
+- By default we get `flex-basis:auto;flex-shrink:1` and they are unit less
+- if `flex-shrink` is bigger than 0, it means the item is allowed to be shrink if there isn't enough room.
+- This is a good thing, because without `flex-shrink`, elements would overflow out the side and this whole flexbox thing would be useless.
+- if we need we can set flex-shrink to 0, so that it cannot shrink anymore.
+- this helps us to not explicitly add width of percentage as well as the account of the margin and padding, like incases we needed with float.
+- if we give a flex-item `flex-shrink:0`,ie:`p:first-child{flex-shrink:0}` then if it is a text content then it will take a space of max-content.
+- so flex-shrink will help us to make room for other items.
+- It make also a challenge, if the content or the text content is smaller than other then it will take less space, the width of flex items will not be same anymore.
+
+**Consistency**
+This happens because if we do not set a `flex-basis` on an element, the default behavior is to set the `flex-basis` to the width of our elements. And our elements do not have a width, so that default's to `auto`.If flex-basis is auto as well as the content width is auto than the content will dictate the size of it, if the content is small then it will take small portion of space. All of that means that **the width of the columns is based on the amount of content that is inside them**.
+
+If the content is the same then the widths are equal.Luckily there is a very easy fix to this inconsistency.If we set for all `p` the `flex-basis is 100%` ei: `p{flex-basis:100%}`then it solved our problem, but if there is an `a` element instead of `p` tag than again `a` element takes less space.To solve this we can use universal selector, ie`.content > *{flex-basis:100%}` (select all the direct child of the flex container). This tells the flex that all the item should be 100% as well as same width or equal proportion.
+But often we need more complicated solutions that either wrap or which have columns of different widths. like main content and the sidebar of a website.
