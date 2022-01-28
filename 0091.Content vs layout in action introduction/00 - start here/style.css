@@ -99,6 +99,15 @@ h3 {
 section {
   padding: 10rem 0;
 }
+.col-1 {
+  flex-basis: 25%;
+}
+.col-2 {
+  flex-basis: 50%;
+}
+.col-3 {
+  flex-basis: 75%;
+}
 /* components */
 
 .btn {
@@ -112,6 +121,7 @@ section {
 }
 
 .card {
+  align-self: flex-start;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   padding: var(--spacer);
 }

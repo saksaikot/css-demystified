@@ -948,3 +948,7 @@ added bg-dark utility class, which can be apply on both section-one and section-
 here teacher discussed about how we can put any content and it should not break the layout, he moved the card content and to section-one and it adjust with the card.
 In addition if we want to put an image we can add a reset img css `img{max-width:100%;display:block;}`.
 and if we don't want any stressed card then we can apply `align-self:flex-start`.We should write our style so that it can accept all kind of content and does not break the layout.
+
+## 0095.More dynamic layouts in action
+
+we can build grid system with the split, we created 4 grid system with flex-basis. col-1 is 25%,2 is 50% 3 is 75%. same way we can build 12 grid system.We added to the section-one, first item col-3 and 2nd col-1
