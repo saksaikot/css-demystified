@@ -66,6 +66,10 @@ p {
   }
 }
 
+.bg-dark {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
 /* general styling */
 
 body {
@@ -110,4 +114,10 @@ section {
 .card {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   padding: var(--spacer);
+}
+
+/* sections */
+.section-one {
+  background-image: url(img/hero-bg.jpg);
+  background-size: cover;
 }

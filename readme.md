@@ -938,3 +938,7 @@ also talked about if using container class or use the section to achieve the sam
 ## 0092.Making things more consistent in action
 
 here we solve the not equal column size, we added for all split that are direct child have flex-basis:100%
+
+## 0093.Styling things up with utility classes in action
+
+added bg-dark utility class, which can be apply on both section-one and section-three. even though we needed only background image not the background color, but actually we need to give the bg-color.and it shorten the code.
