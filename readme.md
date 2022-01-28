@@ -931,3 +931,6 @@ If the content is the same then the widths are equal.Luckily there is a very eas
 But often we need more complicated solutions that either wrap or which have columns of different widths. like main content and the sidebar of a website.
 
 ## 0091.Content vs layout in action introduction
+
+Added card padding and box-shadow, added section padding, added h1 line-height,added class to html to apply the layout.
+also talked about if using container class or use the section to achieve the same. Its all depend the design, if design allows then we can use it.

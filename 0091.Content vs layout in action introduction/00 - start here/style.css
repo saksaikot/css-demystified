@@ -80,6 +80,7 @@ h1,
 h2,
 h3 {
   font-weight: var(--fw-700);
+  line-height: 1.1;
 }
 
 h1 {
@@ -91,7 +92,9 @@ h2 {
 h3 {
   font-size: var(--fs-500);
 }
-
+section {
+  padding: 10rem 0;
+}
 /* components */
 
 .btn {
@@ -102,4 +105,9 @@ h3 {
   background: var(--clr-primary-400);
   color: var(--clr-neutral-100);
   padding: 0.5em 1.25em;
+}
+
+.card {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  padding: var(--spacer);
 }
