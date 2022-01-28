@@ -942,3 +942,9 @@ here we solve the not equal column size, we added for all split that are direct 
 ## 0093.Styling things up with utility classes in action
 
 added bg-dark utility class, which can be apply on both section-one and section-three. even though we needed only background image not the background color, but actually we need to give the bg-color.and it shorten the code.
+
+## 0094.Plug and play in action
+
+here teacher discussed about how we can put any content and it should not break the layout, he moved the card content and to section-one and it adjust with the card.
+In addition if we want to put an image we can add a reset img css `img{max-width:100%;display:block;}`.
+and if we don't want any stressed card then we can apply `align-self:flex-start`.We should write our style so that it can accept all kind of content and does not break the layout.
