@@ -952,3 +952,15 @@ and if we don't want any stressed card then we can apply `align-self:flex-start`
 ## 0095.More dynamic layouts in action
 
 we can build grid system with the split, we created 4 grid system with flex-basis. col-1 is 25%,2 is 50% 3 is 75%. same way we can build 12 grid system.We added to the section-one, first item col-3 and 2nd col-1
+
+# 12.Final Project - The homepage
+
+## 0096.Introduction to the final project
+
+Introduction about project
+
+## 0097.A look at what were building
+
+## 0098.Writing the html
+
+If you use section then you must have a heading (h2), heading can be anywhere
