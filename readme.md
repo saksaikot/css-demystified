@@ -964,3 +964,47 @@ Introduction about project
 ## 0098.Writing the html
 
 If you use section then you must have a heading (h2), heading can be anywhere
+
+## 0099.Bringing in and building out our reset
+
+```css
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  line-height: 1;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  line-height: 1.6;
+}
+```
