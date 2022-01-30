@@ -90,6 +90,9 @@ h3,
   max-width: 50rem;
   margin: 0 auto;
 }
+.xl-space {
+  margin-top: 5rem;
+}
 /* typography */
 body {
   font-family: var(--ff-sans);
@@ -130,4 +133,9 @@ section {
 }
 .page-content {
   font-size: var(--fs-600);
+}
+
+/* homepage style  */
+.home-introduction {
+  --flow-spacer: 2em;
 }

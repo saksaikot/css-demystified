@@ -1030,3 +1030,7 @@ it changes the font-size for bigger screen.so font size becomes dynamic.
 ## 0102.Adding in our spacing
 
 added the flow-content utility class, `var(--flow-spacer,1em)`. the fallback is used as em so that can scale by the font size.added btn style and section padding.
+
+## 0103.More spacing
+
+added xl-space utility class for extra spacing. for home-introduction, since it space is responsive we changed the flow-spacer value to 2em. added newsletter img.
