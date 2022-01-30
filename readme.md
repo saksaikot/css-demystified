@@ -1038,3 +1038,16 @@ added xl-space utility class for extra spacing. for home-introduction, since it 
 ## 0104.Adding columns
 
 added split class, used flex-basis fix, added gap using `>*+*` selector.
+
+## 0105.Backgrounds
+
+added bg-primary-300, here to give the extra padding we used only padding-left and padding-right. if we used just padding it will then overwrite section padding.
+
+```css
+.bg-primary-300 {
+  background-color: var(--clr-primary-300);
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+```

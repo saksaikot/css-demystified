@@ -130,6 +130,12 @@ body {
   color: var(--clr-neutral-900);
   display: inline-block;
 }
+.bg-primary-300 {
+  background-color: var(--clr-primary-300);
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 /* general style */
 section {
   padding: 2.5rem 0;
