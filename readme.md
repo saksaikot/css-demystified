@@ -1056,3 +1056,15 @@ added bg-primary-300, here to give the extra padding we used only padding-left a
 
 added style in component section. used compound selector to separate the scope. used gap for the space,
 otherwise `.article-preview .info>*:first-child{margin-right:1.625rem}`
+
+## 0107.Making the images responsive
+
+added object fit on article-preview img, object-fit:cover is same as `background-size:cover`,then give it the height of the design and width:100%.with object-fit we can use `object-position:left/center/right`, default is center
+
+```css
+.article-preview img {
+  object-fit: cover;
+  height: 12.5rem;
+  width: 100%;
+}
+```

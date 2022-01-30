@@ -166,6 +166,11 @@ section {
   font-size: var(--fs-600);
   color: var(--clr-neutral-900);
 }
+.article-preview img {
+  object-fit: cover;
+  height: 12.5rem;
+  width: 100%;
+}
 .article-preview .info {
   display: flex;
   gap: 1.625rem;
