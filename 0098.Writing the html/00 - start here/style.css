@@ -69,6 +69,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: var(--br);
 }
 body {
   line-height: 1.6;
@@ -159,7 +160,18 @@ section {
 .page-content {
   font-size: var(--fs-600);
 }
-
+/* component */
+.article-preview h3 {
+  font-weight: var(--fw-200);
+  font-size: var(--fs-600);
+  color: var(--clr-neutral-900);
+}
+.article-preview .info {
+  display: flex;
+  gap: 1.625rem;
+  font-size: var(--fs-200);
+  color: var(--clr-neutral-400);
+}
 /* homepage style  */
 .home-introduction {
   --flow-spacer: 2em;

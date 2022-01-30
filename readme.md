@@ -1051,3 +1051,8 @@ added bg-primary-300, here to give the extra padding we used only padding-left a
   padding-right: 1rem;
 }
 ```
+
+## 0106.Styling the article previews
+
+added style in component section. used compound selector to separate the scope. used gap for the space,
+otherwise `.article-preview .info>*:first-child{margin-right:1.625rem}`
