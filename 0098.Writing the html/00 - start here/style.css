@@ -181,3 +181,20 @@ section {
 .home-introduction {
   --flow-spacer: 2em;
 }
+.subscription {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 3rem;
+}
+.subscription label {
+  display: block;
+}
+.subscription input {
+  width: 100%;
+  border: 0;
+}
+.subscription > div {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}

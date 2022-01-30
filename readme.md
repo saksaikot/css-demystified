@@ -1068,3 +1068,25 @@ added object fit on article-preview img, object-fit:cover is same as `background
   width: 100%;
 }
 ```
+
+## 0108.The call to action
+
+```css
+.subscription {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 3rem;
+}
+.subscription label {
+  display: block;
+}
+.subscription input {
+  width: 100%;
+  border: 0;
+}
+.subscription > div {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+```
