@@ -98,8 +98,25 @@ body {
   color: var(--clr-neutral-900);
   margin: 1.5rem;
 }
-
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, 1em);
+}
+.btn {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-400);
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+  display: inline-block;
+}
 /* general style */
+section {
+  padding: 2.5rem 0;
+}
+@media (min-width: 40rem) {
+  section {
+    padding: 3.5rem 0;
+  }
+}
 .section-title {
   font-size: var(--fs-600);
   color: var(--clr-neutral-400);
