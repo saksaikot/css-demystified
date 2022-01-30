@@ -104,6 +104,25 @@ body {
 .flow-content > * + * {
   margin-top: var(--flow-spacer, 1em);
 }
+.split {
+  display: flex;
+  flex-direction: column;
+}
+.split > * {
+  flex-basis: 100%;
+}
+.split > * + * {
+  margin: 4rem 0 0 0;
+}
+@media (min-width: 40rem) {
+  .split {
+    flex-direction: row;
+  }
+  .split > * + * {
+    margin: 0 0 0 2.5rem;
+  }
+}
+
 .btn {
   font-family: var(--ff-sans);
   font-weight: var(--fw-400);

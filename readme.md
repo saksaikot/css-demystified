@@ -1034,3 +1034,7 @@ added the flow-content utility class, `var(--flow-spacer,1em)`. the fallback is 
 ## 0103.More spacing
 
 added xl-space utility class for extra spacing. for home-introduction, since it space is responsive we changed the flow-spacer value to 2em. added newsletter img.
+
+## 0104.Adding columns
+
+added split class, used flex-basis fix, added gap using `>*+*` selector.
