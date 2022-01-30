@@ -1012,3 +1012,17 @@ body {
 ## 0100.Styling the typography
 
 added typography according to style file
+
+## 0101.Making the typography responsive
+
+```css
+@media (min-width: 40em) {
+  :root {
+    --fs-500: 1.75rem;
+    --fs-600: 2.125rem;
+    --fs-900: 4.25rem;
+  }
+}
+```
+
+it changes the font-size for bigger screen.so font size becomes dynamic.
