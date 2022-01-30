@@ -1008,3 +1008,7 @@ body {
   line-height: 1.6;
 }
 ```
+
+## 0100.Styling the typography
+
+added typography according to style file

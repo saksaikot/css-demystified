@@ -27,6 +27,13 @@
 
   --br: 1rem;
 }
+@media (min-width: 40em) {
+  :root {
+    --fs-500: 1.75rem;
+    --fs-600: 2.125rem;
+    --fs-900: 4.25rem;
+  }
+}
 /* reset */
 *,
 *::before,
@@ -65,4 +72,45 @@ img {
 }
 body {
   line-height: 1.6;
+}
+
+/* utility */
+h1,
+h2,
+h3,
+.section-subtitle,
+.text-serif {
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-200);
+}
+.text-500 {
+  font-size: var(--fs-500);
+}
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+/* typography */
+body {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-400);
+  line-height: 1.4;
+  color: var(--clr-neutral-900);
+  margin: 1.5rem;
+}
+
+/* general style */
+.section-title {
+  font-size: var(--fs-600);
+  color: var(--clr-neutral-400);
+}
+.section-subtitle {
+  font-size: var(--fs-600);
+}
+.page-title {
+  font-size: var(--fs-900);
+  letter-spacing: -0.1rem;
+}
+.page-content {
+  font-size: var(--fs-600);
 }
