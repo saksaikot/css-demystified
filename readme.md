@@ -1116,3 +1116,7 @@ a {
 ## 0112.Making the form responsive
 
 made the form responsive
+
+## 0113.Styling the header and the navigation
+
+now the nav for the bigger screen, need to reset lot and need to inspect carefully.
