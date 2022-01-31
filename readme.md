@@ -1169,3 +1169,16 @@ added css
   grid-column: span 3;
 }
 ```
+
+## 0118.Making the grid responsive
+
+fix the layout problem by adding 8n+\_\_number ie :`.article-grid > *:nth-child(8n+1)` this will put any additional component to have the save layout
+for mobile added
+
+```css
+.article-grid > * {
+  grid-column: 1/-1;
+}
+```
+
+so that all article use 1 column, then the grid layout is put in the media query
