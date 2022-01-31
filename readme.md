@@ -1090,3 +1090,7 @@ added object fit on article-preview img, object-fit:cover is same as `background
   flex-shrink: 1;
 }
 ```
+
+## 0109.Styling the form elements
+
+styled all form elements, added hover and focus style. fixed hover extra width.
