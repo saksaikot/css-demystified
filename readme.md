@@ -1120,3 +1120,9 @@ made the form responsive
 ## 0113.Styling the header and the navigation
 
 now the nav for the bigger screen, need to reset lot and need to inspect carefully.
+
+# 13. Final Project - The blog page
+
+## 0114.Introducing the blog page
+
+## 0115.Starting work on the blog page
