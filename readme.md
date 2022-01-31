@@ -1094,3 +1094,7 @@ added object fit on article-preview img, object-fit:cover is same as `background
 ## 0109.Styling the form elements
 
 styled all form elements, added hover and focus style. fixed hover extra width.
+
+## 0110.Form fun from the future
+
+in the subscription form, there are div without class and its ok to have these empty divs. here he talks about the accessibility, the `label` should have a `for`, and it should point to the input id. the name attribute helps to autofill and also sending data to server as key,value pair.
