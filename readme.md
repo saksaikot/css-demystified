@@ -1182,3 +1182,22 @@ for mobile added
 ```
 
 so that all article use 1 column, then the grid layout is put in the media query
+
+## 0119.Styling the featured article
+
+```css
+.article-grid > .article-preview:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr min-content 1fr;
+  gap: 1em 2em;
+}
+.article-grid > .article-preview:first-child > img {
+  grid-row: span 3;
+  height: 17.5rem;
+}
+.article-preview > h3 {
+  font-size: var(--fs-500);
+  margin-top: auto;
+}
+```
