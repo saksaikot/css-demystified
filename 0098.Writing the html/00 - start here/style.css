@@ -171,6 +171,32 @@ body {
   background-color: var(--clr-primary-400);
   border-radius: var(--br);
   padding: 1rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+/* @media (min-width: 40em) {
+  .primary-header {
+    min-height: 34.5rem;
+  }
+} */
+.page-home .primary-header {
+  min-height: 28.5rem;
+  background-image: url(img/hero.jpg);
+  background-position: center center;
+}
+.page-blog .primary-header {
+  min-height: 34.5rem;
+  background-image: url(img/blog.jpg);
+  background-position: left center;
+}
+.primary-header .container {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+.primary-header .container > * {
+  max-width: 12ch;
 }
 .primary-nav {
   position: fixed;
@@ -213,6 +239,7 @@ body {
     color: inherit;
   }
 }
+
 section {
   padding: 2.5rem 0;
 }
@@ -326,4 +353,29 @@ section {
   flex-basis: 100%;
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+/* blog-page */
+.secondary-navigation {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.secondary-navigation .categories {
+  display: flex;
+  gap: 2em;
+}
+.secondary-navigation ul {
+  margin: 0;
+}
+.secondary-navigation button {
+  background: none;
+  border: 0;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-400);
+  font-family: var(--ff-sans);
+  cursor: pointer;
+}
+.secondary-navigation > a:last-child {
+  margin-left: auto;
 }

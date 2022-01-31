@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="page-blog">
   <header class="primary-header">
     <div class="primary-header__inner">
       <a href="index.html" aria-label="acme home page"><img src="img/logo.svg" alt="" class="logo"></a>
@@ -29,11 +29,11 @@
 
   <div class="secondary-navigation">
     <ul class="categories">
-      <li><a href="#">Design</a></li>
-      <li><a href="#">Front-End</a></li>
-      <li><a href="#">Back-end</a></li>
-      <li><a href="#">Web</a></li>
-      <li><a href="#">Apps</a></li>
+      <li><button>Design</button></li>
+      <li><button>Front-End</button></li>
+      <li><button>Back-end</button></li>
+      <li><button>Web</button></li>
+      <li><button>Apps</button></li>
     </ul>
     <a href="#newsletter" class="btn">Subscribe</a>
   </div>
@@ -115,50 +115,51 @@
 
   </div>
 
-  <section class="call-to-action">
+  <section class="cta">
     <div class="container">
       <header>
         <h2 class="section-title">Inbox</h2>
         <p class="section-subtitle">Knowledge letters</p>
       </header>
-      <img class="xl-space" src="img/newsletter.jpg" alt="floating items">
+      <img class="xl-space" src="img/newsletter.jpg" alt="">
+      <form action="" class="subscription">
 
-      <form action="" method="post" class="newsletter">
         <div>
-          <label for="name">Name</label>
-          <input placeholder="Your Name" type="text" id="name" name="name">
+          <label for="subscription-name">Name</label>
+          <input type="text" id="subscription-name" name="name" placeholder="Your Name" />
         </div>
         <div>
-          <label for="email">Email</label>
-          <input placeholder="example@domain.com" type="email" name="email" id="email">
+          <label for="subscription-email">Email</label>
+          <input type="email" name="email" id="subscription-email" placeholder="example@domain.com">
+
         </div>
-        <button class="btn" type="submit">Subscribe</button>
+        <button class="btn">Subscribe</button>
       </form>
     </div>
   </section>
 
-  <footer class="primary-footer">
+  <footer class="footer-primary">
     <div class="container">
-      <div class="primary-footer__inner split">
-        <a href="index.html" aria-label="acme home page"><img src="img/logo.svg" alt="" class="logo"></a>
-
-        <div class="footer-nav">
-          <dl class="flow-content">
-            <dt class="text-serif">Map</dt>
-            <dd><a href="#">Blog</a></dd>
-            <dd><a href="#">Privacy</a></dd>
-          </dl>
-
-          <dl class="flow-content">
-            <dt class="text-serif">Resources</dt>
-            <dd><a href="#">Courses</a></dd>
-            <dd><a href="#">Hacks</a></dd>
-            <dd><a href="#">Free stuff</a></dd>
-          </dl>
+      <div class="footer-primary-inner ">
+        <div class="split">
+          <a href="index.html" aria-label="acme home page"><img class="logo" src="img/logo.svg" alt=""></a>
+          <nav class="footer-primary__nav">
+            <dl class="flow-content">
+              <dt class="text-serif">Map</dt>
+              <dd><a href="#">Blog</a></dd>
+              <dd><a href="#">Privacy</a></dd>
+            </dl>
+            <dl class="flow-content">
+              <dt class="text-serif">Resources</dt>
+              <dd><a href="#">Courses</a></dd>
+              <dd><a href="#">Hacks</a></dd>
+              <dd><a href="#">Free stuff</a></dd>
+            </dl>
+          </nav>
         </div>
       </div>
-      <div class="split text-serif">
-        <p class="copywrite">© 2020 acme. All rights reserved </p>
+      <div class="text-serif split">
+        <p class="copy-write">© 2020 acme. All rights reserved </p>
         <ul class="footer-social">
           <li><a href="#">Yt</a></li>
           <li><a href="#">Tw</a></li>

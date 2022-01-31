@@ -1126,3 +1126,7 @@ now the nav for the bigger screen, need to reset lot and need to inspect careful
 ## 0114.Introducing the blog page
 
 ## 0115.Starting work on the blog page
+
+## 0116.A solution and the secondary navigation
+
+we can use width in character, like, `width:12ch`;
