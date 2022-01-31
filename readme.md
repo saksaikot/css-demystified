@@ -1098,3 +1098,17 @@ styled all form elements, added hover and focus style. fixed hover extra width.
 ## 0110.Form fun from the future
 
 in the subscription form, there are div without class and its ok to have these empty divs. here he talks about the accessibility, the `label` should have a `for`, and it should point to the input id. the name attribute helps to autofill and also sending data to server as key,value pair.
+
+## 0111.Styling the footer
+
+added a link reset and styling the footer
+
+```css
+a {
+  text-decoration: none;
+  /* font-family: var(--ff-sans); */
+  font-weight: var(--fw-700);
+  font-size: var(--fs-300);
+  color: var(--clr-neutral-900);
+}
+```
