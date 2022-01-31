@@ -1112,3 +1112,7 @@ a {
   color: var(--clr-neutral-900);
 }
 ```
+
+## 0112.Making the form responsive
+
+made the form responsive

@@ -238,7 +238,19 @@ section {
 .subscription {
   margin-top: 2.5rem;
   display: flex;
+  flex-direction: column;
   gap: 3rem;
+}
+.subscription button {
+  align-self: flex-start;
+}
+@media (min-width: 40em) {
+  .subscription {
+    flex-direction: row;
+  }
+  .subscription button {
+    align-self: center;
+  }
 }
 .subscription label {
   display: block;
