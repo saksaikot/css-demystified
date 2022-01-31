@@ -1201,3 +1201,44 @@ so that all article use 1 column, then the grid layout is put in the media query
   margin-top: auto;
 }
 ```
+
+## 0121.A look at the header
+
+added text-readable-layer and the header image
+
+```css
+.text-readable-layer {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.text-readable-layer::after {
+  /* add layer */
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 25%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: -1;
+}
+.page-article .primary-header {
+  min-height: 34.5rem;
+  background-image: url(img/article.jpg);
+  background-position-x: center;
+  background-position-y: 10rem;
+  /* add layer */
+}
+@media (min-width: 40em) {
+  .page-article .primary-header {
+    background-position-x: 12rem;
+    background-position-y: center;
+  }
+}
+```
