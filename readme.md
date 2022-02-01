@@ -1421,3 +1421,12 @@ there is no only one best solution. there can be other. and we should practice w
 ## 0133.Introduction to module 4
 
 talks about tutorial hell, how to study and how he solved it for teaching. we can apply all of it not only css but other part of learning.
+
+## 0134.What is tutorial hell
+
+**the main part if we follow a tutorial and finished it and we understand it but when we try to apply those in our project then we cant do all of them and need to quickly go back to tutorial. this is called the tutorial hell.**
+
+what is tutorial hell???
+
+when we understand enough to follow along, but where we don't understand enough to be able to put it into action on our own without the help of tutorials we are stuck, so we just keep going
+back to them over and over again but if we can follow a tutorial and understand everything going on during a tutorial, why can't we do it on our own??? .
