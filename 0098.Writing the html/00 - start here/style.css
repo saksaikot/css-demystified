@@ -475,3 +475,29 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* article-barebone */
+
+.article-full h2 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--clr-neutral-900);
+}
+.article-full p {
+  font-size: var(--fs-300);
+}
+.article-full h3 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--clr-neutral-400);
+  margin-bottom: 0;
+}
+.article-full h3 + p {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--clr-neutral-900);
+  margin-top: 0;
+}

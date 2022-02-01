@@ -1268,3 +1268,35 @@ another solution is to give xl-space !important declaration. so it will overwrit
   margin-top: 5rem !important;
 }
 ```
+
+## 0124.A new challenge
+
+new challenge is to build the full article without having any class inside it. only use the markup to style.
+
+```css
+/* article-barebone */
+
+.article-full h2 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--clr-neutral-900);
+}
+.article-full p {
+  font-size: var(--fs-300);
+}
+.article-full h3 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--clr-neutral-400);
+  margin-bottom: 0;
+}
+.article-full h3 + p {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--clr-neutral-900);
+  margin-top: 0;
+}
+```
