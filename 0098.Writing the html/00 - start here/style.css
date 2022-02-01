@@ -355,7 +355,7 @@ section {
   display: block;
   font-weight: inherit;
 }
-.article-preview:hover > a::before {
+.article-preview > a::before {
   --offset: -1em;
   content: "";
   position: absolute;
@@ -365,8 +365,12 @@ section {
   right: var(--offset);
   border-radius: var(--br);
   box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.25);
-  /* background: pink; */
-  z-index: -1;
+  transition: opacity 350ms ease;
+  opacity: 0;
+  z-index: 1;
+}
+.article-preview:hover a::before {
+  opacity: 1;
 }
 /* homepage style  */
 .home-introduction {
