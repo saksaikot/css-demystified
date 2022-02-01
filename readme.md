@@ -1375,3 +1375,35 @@ to make the hover effect, we added a position fixed content before of `a`. and t
 ```
 
 **and remember `position:fixed` is for viewport and `position:absolute` for nearest positioned ancestor**
+
+## 0130.A quick look at performance
+
+animated box-shadow is not recommended, slow performance
+
+animation/transition is only opacity and transform
+
+example:
+slow solution on hover animation
+
+```css
+.article-preview a::before {
+  box-shadow: 0;
+  transition: box-shadow 350ms ease;
+}
+.article-preview:hover a::before {
+  box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.25);
+}
+```
+
+best solution on hover animation
+
+```css
+.article-preview a::before {
+  box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.25);
+  transition: opacity 350ms ease;
+  opacity: 0;
+}
+.article-preview:hover a::before {
+  opacity: 1;
+}
+```
