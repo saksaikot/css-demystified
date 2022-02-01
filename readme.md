@@ -1373,3 +1373,5 @@ to make the hover effect, we added a position fixed content before of `a`. and t
   }
 }
 ```
+
+**and remember `position:fixed` is for viewport and `position:absolute` for nearest positioned ancestor**
