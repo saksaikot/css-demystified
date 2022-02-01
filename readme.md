@@ -1411,3 +1411,7 @@ best solution on hover animation
 ## 0131.Getting the links to cover the entire article
 
 there is problem in the article preview link, the link click will work whole container accept the image. to solve this we can put the `a::before` z-index:1. we can only do this cause it is transparent, else we need to wrap whole container with `a` and then again we need to fix the layout later
+
+## 0132.And thats a wrap
+
+there is no only one best solution. there can be other. and we should practice what we learnt and add up our own thought.
