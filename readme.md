@@ -1415,3 +1415,9 @@ there is problem in the article preview link, the link click will work whole con
 ## 0132.And thats a wrap
 
 there is no only one best solution. there can be other. and we should practice what we learnt and add up our own thought.
+
+# 15.module 4
+
+## 0133.Introduction to module 4
+
+talks about tutorial hell, how to study and how he solved it for teaching. we can apply all of it not only css but other part of learning.
