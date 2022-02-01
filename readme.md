@@ -1326,3 +1326,50 @@ the solution given by teacher, use the existence rules when possible
 
 just copied 2 article-preview into the read next section.and added the xl-space to give the extra space
 it this case we can use the existence rules to setup our layout we don't need to use the grid for this simple layout.
+
+## 0127.About adding in the links
+
+about how to add link in paragraph
+
+## 0128.Adding the links and a challenge, 0129.A solution and styling it up
+
+a link can be on any element, it was not the case before, to compensate the added link need to make few change.
+to make the hover effect, we added a position fixed content before of `a`. and the nearest position:relative is article-preview so that we can select all of it container. then on hover we make it visible with box-shadow
+
+```html
+<a href="#" class="flow-content">
+  <h3>Lorem ipsum dolor sit amet, consectet adipiscing</h3>
+  <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
+</a>
+```
+
+```css
+.article-preview {
+  position: relative;
+  z-index: 0;
+}
+.article-preview > a {
+  display: block;
+  font-weight: inherit;
+}
+.article-preview:hover > a::before {
+  --offset: -1em;
+  content: "";
+  position: absolute;
+  top: var(--offset);
+  bottom: var(--offset);
+  left: var(--offset);
+  right: var(--offset);
+  border-radius: var(--br);
+  box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.25);
+  /* background: pink; */
+  z-index: -1;
+}
+
+@media (min-width: 40em) {
+  .article-preview h3 {
+    font-size: var(--fs-500);
+    margin-top: auto;
+  }
+}
+```
