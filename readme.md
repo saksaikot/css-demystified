@@ -1300,3 +1300,24 @@ new challenge is to build the full article without having any class inside it. o
   margin-top: 0;
 }
 ```
+
+## 0125.Challenge 2 solution
+
+the solution given by teacher, use the existence rules when possible
+
+```css
+.section-title,
+.article-full > h3 {
+  font-size: var(--fs-600);
+  color: var(--clr-neutral-400);
+}
+.section-subtitle,
+.article-full > h3 + p {
+  font-size: var(--fs-600);
+}
+.article-full > h3 + p {
+  margin-top: 0;
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-200);
+}
+```
