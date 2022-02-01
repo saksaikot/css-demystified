@@ -1321,3 +1321,8 @@ the solution given by teacher, use the existence rules when possible
   font-weight: var(--fw-200);
 }
 ```
+
+## 0126.The read next area
+
+just copied 2 article-preview into the read next section.and added the xl-space to give the extra space
+it this case we can use the existence rules to setup our layout we don't need to use the grid for this simple layout.
