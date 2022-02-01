@@ -1242,3 +1242,19 @@ added text-readable-layer and the header image
   }
 }
 ```
+
+`background-position: x y` x and y unit must me same, otherwise rule need to be separate, `background-position-x` `background-position-y`
+
+## 0122.The main article
+
+added css,instead of `margin:0 auto` to place it in center we leave the margin top and bottom, and set the margin of left and right separately, to solve the margin-top problem with `xl-spacer{margin-top:5rem}`
+
+```css
+.article-full {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+also added the flow-content to add space and add xl-space to add extra space.
