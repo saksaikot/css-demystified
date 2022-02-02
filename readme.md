@@ -1551,3 +1551,7 @@ Note taking can be useful here, Giving you the outline of what you know and don'
 **Don't move on because you understand** what they did in the tutorial.
 You can move on when you really understand what is happening, and can **apply it in different situation** on your own.
 Try to explore or other ways that can be execute it to get full understand and when you can predict which value or code will produce what action then you can move on from applying stage.
+
+## 0143.A simple example
+
+an example of using figma shortcuts. To create a text area you need to first select the textarea function then apply it. There is a shortcut for it, T. But if we want to learn this shortcut then we need to start using is and not doing it old ways, knowing and applying is different thing.
