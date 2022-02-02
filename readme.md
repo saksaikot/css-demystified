@@ -1581,3 +1581,8 @@ When you trying to learn too fast you cheating with your self.
 
 But that doesn't help us, and if anything, it holds us back.
 By starting with a strong foundation, we take our time early on and it pays off in the long run.
+
+## 0145.Lets learn together
+
+he talks about how he is going to learn new thing,a new css feature. how he apply, remember->understand->apply.
+And its also okay, if we don't know something then step-back 1 or 2,3 level down and see if all those are ok, then try to solve them, if can't solve then you know that you don't know something and you need to know it.
