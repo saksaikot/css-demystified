@@ -1522,3 +1522,22 @@ are you trying to **learn something** or want to **solve your single problem**?
 When you are in learning mode you **don't celebrate getting things to work**, you **celebrate understanding why they work**.
 It really helps to have a **goal in mind before you start**, I like to slowly work my way up and intentionally following the steps in bloom's taxonomy the best I can. **Taking notes** can be incredibly useful and worth working at a slower pace, then you can start playing with the code. Reinforce what you're learning and push your learning to the next step.
 You need to write the code yourself.No copy & paste or saying you get it. Write it out, line by line.
+
+## 0141.Getting to and through the applying stage
+
+If you are able to apply something, you've escaped the tutorial hell!
+
+But what does applying even mean?
+
+It's when you can take something that you've learned and use it!
+It sounds easy, but if it was tutorial hell wouldn't to be a thing.
+steps-
+
+1. watch/read/listen
+2. Repeat on your own
+3. Use it in a different situation
+
+Don't be scared to go back to a tutorial or lesson, but make sure you understand it properly and apply the whole thing again from 0
+If you do go back, make sure you're able to do it on your own once again. It help you to remembering stage help you build muscle memory.
+Foundation, remembering and understanding
+before you can start applying.
