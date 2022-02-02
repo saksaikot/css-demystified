@@ -1430,3 +1430,13 @@ what is tutorial hell???
 
 when we understand enough to follow along, but where we don't understand enough to be able to put it into action on our own without the help of tutorials we are stuck, so we just keep going
 back to them over and over again but if we can follow a tutorial and understand everything going on during a tutorial, why can't we do it on our own??? .
+
+## 0135.Don't get frustrated if you're stuck
+
+Stop getting frustrated
+Everyone gets stuck in it from time to time. Sometimes even the best of us end up there for a long time.
+It's incredibly easy to get stuck in tutorial hell.
+Learning something new is hard.
+Think about trying to learn how to ride a bike.
+**Understanding something is not the same as being able to do it.**
+It's completely normal to be stuck, to struggle, and to not understand everything.
