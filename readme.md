@@ -1495,3 +1495,21 @@ We need the understand the **what and the why.**
 
 You might remember the the syntax but do you **understand** what a given **property:value** pair does.
 This is when you take what you remember and understand, and you can start to apply that knowledge on your own.
+
+## 0139.Different methods of learning
+
+You hear about the different types of learners all the time.
+
+1. Auditory
+2. Visual
+3. Reading
+4. Putting it in action
+
+It's all a lie. This is all about which method we prefer or like best, not what is most effective.
+
+The best method is a mix of many different ones.
+Like, first reading about the topic then the video and then in action.
+
+Teacher suggest that to be multi-module learner, learn from different source to solidify the learning.
+
+The most important to take the note.
