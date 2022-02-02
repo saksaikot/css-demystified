@@ -1541,3 +1541,13 @@ Don't be scared to go back to a tutorial or lesson, but make sure you understand
 If you do go back, make sure you're able to do it on your own once again. It help you to remembering stage help you build muscle memory.
 Foundation, remembering and understanding
 before you can start applying.
+
+## 0142.Knowing what you don't know
+
+**You need to be hyper aware of what you don't know.**
+**Break thing** down as much as possible and take inventory of things **you don't know**.
+
+Note taking can be useful here, Giving you the outline of what you know and don't know, which can then turn into a learning path.
+**Don't move on because you understand** what they did in the tutorial.
+You can move on when you really understand what is happening, and can **apply it in different situation** on your own.
+Try to explore or other ways that can be execute it to get full understand and when you can predict which value or code will produce what action then you can move on from applying stage.
