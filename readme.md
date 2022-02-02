@@ -1513,3 +1513,12 @@ Like, first reading about the topic then the video and then in action.
 Teacher suggest that to be multi-module learner, learn from different source to solidify the learning.
 
 The most important to take the note.
+
+## 0140.Intentional learning
+
+Intentional learning
+
+are you trying to **learn something** or want to **solve your single problem**?
+When you are in learning mode you **don't celebrate getting things to work**, you **celebrate understanding why they work**.
+It really helps to have a **goal in mind before you start**, I like to slowly work my way up and intentionally following the steps in bloom's taxonomy the best I can. **Taking notes** can be incredibly useful and worth working at a slower pace, then you can start playing with the code. Reinforce what you're learning and push your learning to the next step.
+You need to write the code yourself.No copy & paste or saying you get it. Write it out, line by line.
