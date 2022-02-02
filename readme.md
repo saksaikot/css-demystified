@@ -1555,3 +1555,29 @@ Try to explore or other ways that can be execute it to get full understand and w
 ## 0143.A simple example
 
 an example of using figma shortcuts. To create a text area you need to first select the textarea function then apply it. There is a shortcut for it, T. But if we want to learn this shortcut then we need to start using is and not doing it old ways, knowing and applying is different thing.
+
+## 0144.When we take shortcuts
+
+This is why it is so important that we are **hyper aware** of what we don't know.
+When we try to continue making progress without a proper foundation, it all falls apart.
+
+You cannot build on top of a weak foundation.
+
+So, never, ever be shy about **moving backwards**!
+Learning level:Basics->intermediate->Advanced
+
+if the basic is poor then all will be fall apart.
+
+We think we know the basics, but in reality we remember, or maybe understand them.
+
+So we keep moving forward,but its all built on shaky foundation thats about to come crashing down.
+So if ever you are struggling, stop and look at what is causing the trouble.
+It might make sense right away, You understand what is happening and why.
+
+But it doesn't sink in right away and that is completely normal.
+
+You have to build up a strong base before you can do anything else.
+When you trying to learn too fast you cheating with your self.
+
+But that doesn't help us, and if anything, it holds us back.
+By starting with a strong foundation, we take our time early on and it pays off in the long run.
