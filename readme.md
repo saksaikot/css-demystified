@@ -1652,3 +1652,14 @@ To learn anything well, you need to learn one thing at a time.Learn that thing w
 **And like magic, you will start to learn faster, absorb more of what you are learning and actually be learning more.**
 
 And there is no next tutorial, lesson or demo that hold the secret of missing piece. **The thing will work that putting it into action does.**
+
+## 0150.You need to start doing
+
+Everyone is at different place, with different things to learn.So **try to put into action with what ever you are learning**.
+Be **honest with your self**. Don't cheat with yourself make sure you practice the things you learnt.
+
+Put the work in and be intentional with your learning and taking the required steps to figure it out.
+The goal is **not only understand but to be able to apply it**.
+
+Keep making **progress not through consuming but doing**.
+And soon you will get there.
