@@ -1633,3 +1633,7 @@ textarea:focus-visible {
 ```
 
 then he suggested that after the reading we can watch the video.
+
+## 0148.You cant remember everything
+
+You can't remember everything, when we learn new things and add some more to our knowledge base and if we don't use it for some time then it's normal to can't remembering everything. but if we passed the apply cycle then we can simple go back and see the basic and then again all will come back very easily.Forgetting is not like be in tutorial hell.
