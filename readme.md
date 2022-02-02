@@ -1469,3 +1469,29 @@ Everyone is in a **different** situation.
 
 Tutorial and lessons are a lie. they are not always perfect.
 you can't compare with anyone else. your situation and the path and situation is completely different. when they share their success they are not sharing their failures and the whole picture.If you see yourself as you are not making progress that it is not true, you are making progress and adding your knowledge little by little.
+
+## 0137.Don't compare yourself to others 01
+
+[Programming Tutorials Are A Lie,web-dev-simplified-kyle](https://www.youtube.com/watch?v=uIOhRD9J9oU)
+the tutorial is given almost all time they do the ready code so that they can go point a to point be as early as possible. before that they build it first with lots of failures.So don't get upset if you can't write code as quickly and correctly as tutorial.
+
+as well as the live code learning, the problem with the code is mentioned by the viewer. this is not a ideal case for programmer.
+
+## 0138.The levels of cognition
+
+Bloom's taxonomy is a breakdown of the **different levels we have to progress through** as we learn.
+It is the different levels of cognition that we go through as we learn about something.
+
+1. remember
+2. understand
+3. apply
+4. analyse
+5. evaluate
+6. create
+
+We need to remember the basics, the terminology, and all of the very simple things before we can take the next step.
+
+We need the understand the **what and the why.**
+
+You might remember the the syntax but do you **understand** what a given **property:value** pair does.
+This is when you take what you remember and understand, and you can start to apply that knowledge on your own.
