@@ -1586,3 +1586,50 @@ By starting with a strong foundation, we take our time early on and it pays off 
 
 he talks about how he is going to learn new thing,a new css feature. how he apply, remember->understand->apply.
 And its also okay, if we don't know something then step-back 1 or 2,3 level down and see if all those are ok, then try to solve them, if can't solve then you know that you don't know something and you need to know it.
+
+## 0146.Taking a first look at it, 0147.Putting it into action
+
+we will learn new feature of focus-visible, focus-visible is when the element is in focus state to highlight it browser ie: chrome adds a black outline and maybe firefox do a dot outline.
+
+but it is helpful for keyboard select not for other.
+so for best we can use like it.
+
+```css
+button:focus-visible {
+  outline: 1px solid red;
+}
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+```
+
+this code will help to have the focus for keyboard and have no effect on mouse and touch.Also if the browser is not supported then it will be ignored;
+
+we need to also read on mdn and then can-i-use-it for further finding.
+can-i-use - as of now 72% supporting this.
+
+i added the example in my project to replace the black outline to primary color, also the focus-visible is also works or apply with the mouse and touch.even though it is not suppose to work.
+the assigned color in focus, and focus-visible the focus-visible is overwriting the focus.
+
+```css
+input:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+select:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible) {
+  outline: none;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+input:focus-visible,
+button:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--clr-primary-400);
+}
+```
+
+then he suggested that after the reading we can watch the video.

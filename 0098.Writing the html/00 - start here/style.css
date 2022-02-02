@@ -65,12 +65,28 @@ ol[class] {
   padding: 0;
   list-style: none;
 }
+
 input,
 button,
 select,
 textarea {
   font-family: inherit;
 }
+input:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+select:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible) {
+  outline: none;
+  /* background-color: red; */
+}
+input:focus-visible,
+button:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--clr-primary-400);
+  /* background-color: blue; */
+}
+
 img {
   display: block;
   max-width: 100%;
