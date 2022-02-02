@@ -1457,3 +1457,15 @@ Always moving forward, always learning new things, **never really building up th
 The truth is, when you "move backwards" **you're not going the wrong way**.
 
 You're building your base and **allowing yourself to start moving forwards**.
+
+## 0137.Don't compare yourself to others
+
+Don't compare yourself to others. It will always feel back.
+We like to share positive things, so we share our **successes** and **what makes us look good**.
+ie: Someone learnt for just three months and got a job. it seems like you are not good comparing to them, but this is not the case. they may doing this for long and only took it seriously this time or they may be recommended by their relative.there may be 100 other situation.
+
+You only see other people succeeding, **we don't see their failures or struggles**.
+Everyone is in a **different** situation.
+
+Tutorial and lessons are a lie. they are not always perfect.
+you can't compare with anyone else. your situation and the path and situation is completely different. when they share their success they are not sharing their failures and the whole picture.If you see yourself as you are not making progress that it is not true, you are making progress and adding your knowledge little by little.
