@@ -1440,3 +1440,20 @@ Learning something new is hard.
 Think about trying to learn how to ride a bike.
 **Understanding something is not the same as being able to do it.**
 It's completely normal to be stuck, to struggle, and to not understand everything.
+
+## 0136.Its okay to move backwards
+
+**We can't process information if we don't understand the basics information thai it is build on.**
+
+It's okay if you find yourself in over your head.
+
+**Just don't let it discourage you! instead, realize that you need to take a step backwards.**
+
+We like to always be pushing forward and learning new things.
+
+**That's the trap of tutorial hell!**
+Always moving forward, always learning new things, **never really building up that foundational knowledge** that you need!
+
+The truth is, when you "move backwards" **you're not going the wrong way**.
+
+You're building your base and **allowing yourself to start moving forwards**.
