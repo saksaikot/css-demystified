@@ -1637,3 +1637,18 @@ then he suggested that after the reading we can watch the video.
 ## 0148.You cant remember everything
 
 You can't remember everything, when we learn new things and add some more to our knowledge base and if we don't use it for some time then it's normal to can't remembering everything. but if we passed the apply cycle then we can simple go back and see the basic and then again all will come back very easily.Forgetting is not like be in tutorial hell.
+
+## 0149.Less is more
+
+Often we try to learn as much as possible, as quickly as possible.
+It gives us a **false sense of progress** as we understand things.
+And this is what leads us to and traps us inside tutorial hell.
+Often the best way out is to remember that less is more.
+**Consume less content**
+Instead of learning more make sure putting what you are learning into action.
+Just like teacher mentioned with practicing and playing with code, you need to stop moving forward and you need to start doing.
+To learn anything well, you need to learn one thing at a time.Learn that thing well. Put that thing into action.
+
+**And like magic, you will start to learn faster, absorb more of what you are learning and actually be learning more.**
+
+And there is no next tutorial, lesson or demo that hold the secret of missing piece. **The thing will work that putting it into action does.**
