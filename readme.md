@@ -32,7 +32,7 @@
 - then we needed to maintain two css, one for main site and the other is mobile version
 - then the responsive design came
 - then the web needs to work everywhere
-- it not the publisher who control how to display content, Its the audience
+- it is not the publisher who control how to display content, Its the audience
   - phone
   - tv
   - screen reader
@@ -85,6 +85,7 @@
   - because the width is for content, so padding order and margin is adding up
 
 - to solve this problem we can use `box-sizing:border-box`
+
   ```css
   .element {
     box-sizing: border-box;
@@ -94,8 +95,10 @@
     margin: 20px;
   }
   ```
+
   - using this code the width will be content+padding+border, it will not include margin
   - ### with border-box, margin is not included, because the margin is between two element, if two element has 10px margin than there will be 10px gap not 10+10 = 20 px
+
 - so we can use this css rule to be safe in our design
 
   ```css
@@ -125,7 +128,6 @@
     box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
   }
   ```
-
 - without width default is `width:auto`
 - when width is set to `100%` then the content width will be 100% of parent element, that case whole element will be more then 100% so that element will overflow
 
@@ -187,8 +189,6 @@
   ```
 
 - The following do not inherit things like you’d expect them to
-
-  -
 
   ```html
   <button>
@@ -274,6 +274,7 @@
 
 - it will be blue
 - ### how it calculate which rule should be apply
+
   - 1. Origin and Importance
   - 2. Specificity
   - 3. Order of Appearance
@@ -333,7 +334,6 @@
 ## 0028.Fixing specificity issues
 
 - example of how specificity make issue and how flat css solve the problem
-
 - https://codepen.io/tkhuong/pen/jOMZwgp
 
 ## 0029.Calculating specificity
@@ -347,6 +347,7 @@
   - `navbar::before` will calculate 1B+1C
   - A>B>C, so 1A will win with 10B+10C
 - ### Special Rules
+
   - When calculating CSS specificity values, ignore the universal (\*) selector.`* { color: black; }`
   - Only the selector inside the :not() pseudo-class (negation pseudo-class) is counted. The :not() pseudo-class itself does not get counted.`:not(#some-id) { color: purple; } ` Specificity 1A
   - In case of a tie, the selector that’s farthest down the stylesheet wins.
@@ -385,7 +386,9 @@
   - variable are set in root element so that it cant be accessed globally `:root{}`
   - variable name start with `--` double dash `--my-variable`
   - to name the color added clr prefix `--clr-primary-100` here 100 is the color tone
+
     - 500 is base, 100 is lightest and 900 is darkest
+
   - to reuse the background color we takeout `--plan-light` to utilities ie- `--bg-light`
   - to use the variable `var(--variable-name)`
   - optionally we can add default value is variable is not defined `var(--variable-name,red)`
@@ -413,8 +416,6 @@
 
 ## 0037.Setting up the typography
 
--
-
 ## 0038.Mirroring the layout
 
 - used modifier class to mirror the layout
@@ -433,6 +434,7 @@
     ```
 
   - without bem to use it as global component style
+
     ```html
     <div class="plan">
       <div class="price color-pop"></div>
@@ -453,9 +455,13 @@
 - selectors
 
   - descendant selector (space)
+
     - example `div p` select all p that is inside div including Descendant (or not direct child)
+
   - child selector (>)
+
     - example `div > p` select all p that direct child of div not Descendant (or not direct child)
+
   - adjacent sibling selector (+)
 
     - example `div+p` select immediate sibling that is only p
@@ -559,11 +565,11 @@
 
 - Default html context
 
-  - Boxes are laid out one on top of each other. Even if there is room, they won't try to squeeze in.  
+  - Boxes are laid out one on top of each other. Even if there is room, they won't try to squeeze in.
     ![1](./images/49/1.jpg) ![2](images/49/2.jpg)
-  - Margin between elements collapse  
+  - Margin between elements collapse
     ![3](images/49/3.jpg) ![4](images/49/4.jpg) ![5](images/49/5.jpg) ![6](images/49/6.jpg) ![7](images/49/7.jpg)
-  - And even move the parent element  
+  - And even move the parent element
     ![8](images/49/8.jpg)
 
 - A BFC as like a mini layout inside your page. Once an element creates a BFC
@@ -573,20 +579,22 @@
   - Stop margin collapsing
   - Example
 
-    - Without bfc the margin-top of first paragraph and margin-bottom of last paragraph is collapsed,but with bfc it includes the margin.  
+    - Without bfc the margin-top of first paragraph and margin-bottom of last paragraph is collapsed,but with bfc it includes the margin.
       ![9](images/49/9.jpg)
-    - It also makes the floating text block element  
+    - It also makes the floating text block element
       ![10](images/49/10.jpg)
 
 - The root of our document (the html element) creates a block formatting context, which all of our content lives inside
 - We can create new block formatting contexts within our document as well.
 - You can create a new block formatting context in a lot of ways (this is just a few)
+
   - Using `float`
   - `position` is `abosolute` , `fixed` , or `inline-block`
   - `overflow` of anything except visible
   - Using `columns`
   - Flex and grid items
   - `display: flow-root`
+
 - Note: with so many things creating a new formatting context, and because a new block formatting context stops margins from collapsing, it can be hard to be consistent
 
 ## 0050.Formatting context and floats
@@ -757,13 +765,15 @@ The default position value is `static`, if the position value other than static 
 
 Stacking context create a z-axis for its direct child, children can have their own formatting context. When stacking context created its child are isolated within its plane. Other elements cannot affect it. When we create a new stacking context, z-index is no longer relative to the root, but to that individual context.
 
-![1](images/66/1.jpg)  
+![1](images/66/1.jpg)
 Here, there are two stacking context, one is with white background and have two children,grey and light blue.Light blue also have two children and it is also a stacking context with two children orange and blue. child 2(blue background), of light-blue has a higher z-index, so it will be top on the stack.
 
-![2](images/66/2.jpg)  
+![2](images/66/2.jpg)
+
 If we give light gray element a z-index of 11, it will be on top of the stack, not in between orange and blue element.
 
-![3](images/66/3.jpg)  
+![3](images/66/3.jpg)
+
 because the stack context of light gray is different then the its parents. Parent(white background) have two child and its only concern with it, then the stacking context of light blue is different.Thats why the gray element comes on top of the stack.
 
 ![4](images/66/4.jpg)
@@ -800,8 +810,8 @@ solved earlier
 
 ## 0071.Introduction to containing blocks
 
-Containing blocks that contains elements.Most of the time like 90% containing block is the parent element.To understand that we need to understand the relationship between element and containing block.The size of an element is influenced by its containing block, ie: we set width,padding,margin with percentage that is percent of the containing block.  
-[Example code-pen](https://codepen.io/kevinpowell/pen/eb354461708681bda2b819a7e31783de)  
+Containing blocks that contains elements.Most of the time like 90% containing block is the parent element.To understand that we need to understand the relationship between element and containing block.The size of an element is influenced by its containing block, ie: we set width,padding,margin with percentage that is percent of the containing block.
+[Example code-pen](https://codepen.io/kevinpowell/pen/eb354461708681bda2b819a7e31783de)
 We already set the width with percentage unit. but if we try this with height or the vertical property like margin/padding top/bottom then it will not be the percentage of height, instead it will use the width. It is because if it use the height of parent then when the child is grown then the parent will also grown and it will make the process in a loop.
 
 ## 0072.When the containing block is not the parent
@@ -818,7 +828,7 @@ We can use `position:absolute` on our magic site and use the `top/left` property
 
 ## 0074.Containing blocks in action
 
-[Containing block part 2 code-pen](https://codepen.io/kevinpowell/pen/5ccee3fa284350e67451551bcb5f61c3)  
+[Containing block part 2 code-pen](https://codepen.io/kevinpowell/pen/5ccee3fa284350e67451551bcb5f61c3)
 `position:absolute` open up `top/left/bottom/right` property. As usual the containing block will be nearest ancestor.We can make its parent the containing block by adding `position:relative`. `position:absolute` remove the element out of the flow which means it will ignored like it is not the
 
 ## 0075.Containing blocks a more complex example
@@ -858,7 +868,7 @@ used custom variable in split spacing, for hero used 3rem and for testimonials 4
 
 ## 0083.The corner squares updated
 
-The join-now image corner is renamed to corner-square utility class. There will be problem if we apply this class to testimonial. the corner will be behind the padding. because the content of the testimonial start from the content.We can fix this by using `top` and `left` but making the corner-square `position:absolute`.  
+The join-now image corner is renamed to corner-square utility class. There will be problem if we apply this class to testimonial. the corner will be behind the padding. because the content of the testimonial start from the content.We can fix this by using `top` and `left` but making the corner-square `position:absolute`.
 `.corner-square:nth-of-type(value)`, value can be 1,2,3.. or formula like n+1,2n,2n+1 where n will be 0,1,2,3
 
 ## 0084.Call to actions
